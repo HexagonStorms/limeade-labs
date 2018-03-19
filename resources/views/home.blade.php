@@ -10,19 +10,17 @@
     <title>Limeade Labs | Home</title>
 
     <link href="/css/app.css" type="text/css" rel="stylesheet" />
+    <!-- Apps -->
     <script src="/js/fontawesome-all.js"></script>
-
     <link href="/css/owl.carousel.min.css" rel="stylesheet">
     <link href="/css/animate.css" rel="stylesheet">
     <!-- <link href="/css/style.css" rel="stylesheet"> -->
-    <!-- End -->
 
     <!-- Theme css -->
     <link href="/css/common.css" rel="stylesheet">
-    <!-- For Common code -->
     <link href="/css/style-main.css" rel="stylesheet">
-    <!-- Style -->
     <link href="/css/default.css" rel="stylesheet" id="color_theme">
+
 </head>
 
 <body>
@@ -35,22 +33,27 @@
         <div class="container">
             <!-- Nav -->
             <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand" href="#">limeade labs</a>
-                <!-- Mobile Toggle -->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header-01" aria-controls="header-01" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <!-- Mobile Toggle End-->
-                <div id="header-01" class="collapse navbar-collapse top-menu">
-                    <!-- Menu Start -->
-                    <ul class="nav navbar-nav ml-auto">
-                        <li><a class="current" href="#home">Home</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#portfolio">Work Flow</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                    <!-- Menu End -->
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">limeade labs</a>
+                    <!-- Mobile Toggle -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header-01" aria-controls="header-01" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- Mobile Toggle End-->
+                    <div id="header-01" class="collapse navbar-collapse top-menu">
+                        <!-- Menu Start -->
+                        <ul class="nav navbar-nav ml-auto">
+                            <li><a class="current" href="#home">Home</a></li>
+                            <li><a href="#services">Services</a></li>
+                            @auth
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#portfolio">Work Flow</a></li>
+                            @endauth
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                        <!-- Menu End -->
+                    </div>
+
                 </div>
             </nav>
             <!-- Nav End -->
@@ -62,7 +65,7 @@
     <!-- ========== Main Start ========== -->
     <main>
         <!-- ========== Home Banner Start ========== -->
-        <section id="home" class="home-banner-04 full-screen bg-center-top bg-cover bg-no-repeat" style="background-image:url(/img/j-kelly-brito-416265-unsplash.jpg); ">
+        <section id="home" data-parallax="scroll" data-image-src="/img/j-kelly-brito-416265-unsplash.jpg"  class="home-banner-04 full-screen bg-center-top bg-cover bg-no-repeat" style="background-image:url(/img/j-kelly-brito-416265-unsplash.jpg); ">
             <div class="container">
                 <div class="banner-center-text m-auto">
                     <label class="m-10px-l font-l text-uppercase color-extra-dark-gray wow fadeInLeft font-w-300">Top Shelf</label>
@@ -174,7 +177,7 @@
 
                     <div class="portfolio-filter wow fadeInUp" data-wow-delay="0.4s">
                         <div class="row">
-                            <div class="col-12 col-md-4 col-sm-6 col-xs-6 mix illustration">
+                            <div class="col-12 col-md-4 col-sm-6 mix illustration">
                                 <div class="portfolio-col">
                                     <a href="#"><img src="http://beyarsolutions.com/maria/maria/static/img/portfolio-1.jpg" title="" alt="" /></a>
                                     <div class="hover text-center">
@@ -184,7 +187,7 @@
                                 </div>
                             </div>
                             <!-- .col-sm-4 col-sm-12 -->
-                            <div class="col-12 col-md-4 col-sm-6 col-xs-6 mix photoshop">
+                            <div class="col-12 col-md-4 col-sm-6 mix photoshop">
                                 <div class="portfolio-col">
                                     <a href="#"><img src="http://beyarsolutions.com/maria/maria/static/img/portfolio-2.jpg" title="" alt="" /></a>
                                     <div class="hover text-center">
@@ -194,7 +197,7 @@
                                 </div>
                             </div>
                             <!-- .col-sm-4 col-sm-12 -->
-                            <div class="col-12 col-md-4 col-sm-6 col-xs-6 mix illustration">
+                            <div class="col-12 col-md-4 col-sm-6 mix illustration">
                                 <div class="portfolio-col">
                                     <a href="#"><img src="http://beyarsolutions.com/maria/maria/static/img/portfolio-3.jpg" title="" alt="" /></a>
                                     <div class="hover text-center">
@@ -205,7 +208,7 @@
                             </div>
                             <!-- .col-sm-4 col-sm-12 -->
 
-                            <div class="col-12 col-md-4 col-sm-6 col-xs-6 mix photoshop">
+                            <div class="col-12 col-md-4 col-sm-6 mix photoshop">
                                 <div class="portfolio-col">
                                     <a href="#"><img src="http://beyarsolutions.com/maria/maria/static/img/portfolio-4.jpg" title="" alt="" /></a>
                                     <div class="hover text-center">
@@ -215,7 +218,7 @@
                                 </div>
                             </div>
                             <!-- .col-sm-4 col-sm-12 -->
-                            <div class="col-12 col-md-4 col-sm-6 col-xs-6 mix website">
+                            <div class="col-12 col-md-4 col-sm-6 mix website">
                                 <div class="portfolio-col">
                                     <a href="#"><img src="http://beyarsolutions.com/maria/maria/static/img/portfolio-5.jpg" title="" alt="" /></a>
                                     <div class="hover text-center">
@@ -225,7 +228,7 @@
                                 </div>
                             </div>
                             <!-- .col-sm-4 col-sm-12 -->
-                            <div class="col-12 col-md-4 col-sm-6 col-xs-6 mix apps">
+                            <div class="col-12 col-md-4 col-sm-6 mix apps">
                                 <div class="portfolio-col">
                                     <a href="#"><img src="http://beyarsolutions.com/maria/maria/static/img/portfolio-6.jpg" title="" alt="" /></a>
                                     <div class="hover text-center">

@@ -28,7 +28,7 @@
 	/* ---------------------------------------------- */
 	$(window).on("scroll", function(){
 	    if ($(window).scrollTop() >= 60) {
-	       // $('header').addClass('fixed-header');
+	       $('header').addClass('fixed-header');
 	       $('body').addClass('fixed-header-body');
 	    }
 	    else {
