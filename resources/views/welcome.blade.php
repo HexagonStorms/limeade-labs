@@ -8,10 +8,8 @@
 
         <title>Limeade Labs | Home</title>
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-
         <link href="/css/app.css" type="text/css" rel="stylesheet" />
+        <script src="/js/fontawesome-all.js"></script>
     </head>
     <body>
         <h1>Hello world</h1>
