@@ -35,7 +35,7 @@
         <div class="container">
             <!-- Nav -->
             <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand" href="#">Maria</a>
+                <a class="navbar-brand" href="#">limeade labs</a>
                 <!-- Mobile Toggle -->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header-01" aria-controls="header-01" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -45,10 +45,9 @@
                     <!-- Menu Start -->
                     <ul class="nav navbar-nav ml-auto">
                         <li><a class="current" href="#home">Home</a></li>
-                        <li><a href="#about-us">About</a></li>
                         <li><a href="#services">Services</a></li>
                         <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#portfolio">Work Flow</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                     <!-- Menu End -->
@@ -63,88 +62,22 @@
     <!-- ========== Main Start ========== -->
     <main>
         <!-- ========== Home Banner Start ========== -->
-        <section id="home" class="home-banner-04 full-screen bg-center-top bg-cover bg-no-repeat" style="background-image:url(http://beyarsolutions.com/maria/maria/static/img/homebannerv2.png); ">
+        <section id="home" class="home-banner-04 full-screen bg-center-top bg-cover bg-no-repeat" style="background-image:url(/img/j-kelly-brito-416265-unsplash.jpg); ">
             <div class="container">
                 <div class="banner-center-text m-auto">
-                    <label class="m-10px-l font-l text-uppercase color-extra-dark-gray wow fadeInLeft font-w-300">Hello</label>
+                    <label class="m-10px-l font-l text-uppercase color-extra-dark-gray wow fadeInLeft font-w-300">Top Shelf</label>
                     <h1 class="font-alt font-w-500 color-extra-dark-gray m-10px-b wow fadeInLeft" data-wow-delay="0.1s">
-                        I'm Martin</h1>
+                        Development</h1>
                     <p id="type-it" class="m-10px-l font-w-300 color-extra-dark-gray font-25 text-uppercase wow fadeInLeft" data-wow-delay="0.2s"></p>
                 </div>
             </div>
         </section>
         <!-- ========== Home Banner End ========== -->
 
-        <!-- ========== About Us Start ========== -->
-        <section id="about-us" class="section bg-cover bg-no-repeat" style="background-image:url(http://beyarsolutions.com/maria/maria/static/img/about-v1.png);">
-            <div class="container">
-                <div class="row justify-content-end">
-
-                    <div class="col-md-4 align-self-center text-left wow fadeInUp bg-white-opacity md-p-25px-t md-p-25px-b">
-                            <h4 class="heading-style-6 font-alt">About Me</h4>
-                            <p class="w-90 sm-w-100">Hello, I’m a UI/UX Designer &amp; Frontend,Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                            <ul class="list-style-11 w-70 sm-w-100 m-0px p-0px m-30px-t">
-                              <li><label class="w-100px color-extra-dark-gray m-0px p-0px display-inline-block v-aling-top">Name:</label> Martin Smith</li>
-                              <li><label class="w-100px color-extra-dark-gray display-inline-block v-aling-top m-0px p-0px">Email:</label>Martin@domain.com</li>
-                              <li><label class="w-100px color-extra-dark-gray display-inline-block v-aling-top ">Phone:</label>(000) – 000-0000</li>
-                              <li><label class="w-100px color-extra-dark-gray display-inline-block v-aling-top m-0px p-0px">Nationality:</label>India</li>
-                            </ul>
-                            <div class="m-15px-t">
-                              <a href="#" class="btn btn-theme"><i class="fa fa-download icon-xs m-5px-r" aria-hidden="true"></i>Download CV</a>
-                            </div>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-        <!-- ========== About Us End ========== -->
-
-        <!-- ========== Skills ========== -->
-        <section class="skills-box section bg-light-gray">
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-6 align-self-center wow fadeInLeft">
-                <h4 class="heading-style-6 font-alt">My Skills</h4>
-
-                <div class="font-alt w-80 sm-w-100 font-16 font-w-600 m-15px-b color-extra-dark-gray">I provide high quality and cost effective services.</div>
-                <p class="w-80 sm-w-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum has been the industry. Lorem Ipsum has been the industry's standard dummy text since. Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-              </div><!-- col -->
-
-              <div class="col-12 col-md-6 wow fadeInRight" data-wow-delay="0.2s">
-                <div class="skillbar skillbar-style-1" data-percent="90">
-                  <span class="skillbar-title">HTML5</span>
-                  <p class="skillbar-bar bg-theme"></p>
-                </div>
-                <!-- End Skill Bar -->
-
-                <div class="skillbar skillbar-style-1" data-percent="85">
-                  <span class="skillbar-title">CSS3</span>
-                  <p class="skillbar-bar bg-theme"></p>
-                </div>
-                <!-- End Skill Bar -->
-
-                <div class="skillbar skillbar-style-1" data-percent="75">
-                  <span class="skillbar-title">jQuery</span>
-                  <p class="skillbar-bar bg-theme"></p>
-                </div>
-                <!-- End Skill Bar -->
-
-                <div class="skillbar skillbar-style-1" data-percent="65">
-                  <span class="skillbar-title">PHP</span>
-                  <p class="skillbar-bar bg-theme"></p>
-                </div>
-                <!-- End Skill Bar -->
-              </div>
-
-            </div><!-- row -->
-          </div><!-- continaer -->
-        </section><!-- section -->
-        <!-- ========== Skills End========== -->
-
         <!-- ========== Services Start ========== -->
         <section id="services" class="section">
             <div class="container">
-                <h4 class="heading-style-6 font-alt">My Services</h4>
+                <h4 class="heading-style-6 font-alt">Our Services</h4>
 
                 <div class="row">
                     <div class="col-12 col-md-6 col-lg-4 wow fadeInUp md-m-30px-b">
@@ -162,7 +95,7 @@
                         <div class="feature-box p-25px">
                             <i class="far fa-code fa-3x"></i>
                             <div class="feature-content">
-                                <div class="font-alt font-w-700 color-extra-dark-gray m-5px-b m-15px-t letter-spacing-3 text-uppercase">Development</div>
+                                <div class="font-alt font-w-700 color-extra-dark-gray m-5px-b m-15px-t letter-spacing-3 text-uppercase">Web Development</div>
                                 <p>Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy.</p>
                             </div>
                         </div>
@@ -173,7 +106,7 @@
                         <div class="feature-box p-25px">
                             <i class="far fa-chart-area fa-3x"></i>
                             <div class="feature-content">
-                                <div class="font-alt font-w-700 color-extra-dark-gray m-5px-b m-15px-t letter-spacing-3 text-uppercase">Graphic</div>
+                                <div class="font-alt font-w-700 color-extra-dark-gray m-5px-b m-15px-t letter-spacing-3 text-uppercase">Graphics</div>
                                 <p>Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy.</p>
                             </div>
                         </div>
@@ -196,7 +129,7 @@
                         <div class="feature-box p-25px">
                             <i class="far fa-mobile-alt fa-3x"></i>
                             <div class="feature-content">
-                                <div class="font-alt font-w-700 color-extra-dark-gray m-5px-b m-15px-t letter-spacing-3 text-uppercase">Development</div>
+                                <div class="font-alt font-w-700 color-extra-dark-gray m-5px-b m-15px-t letter-spacing-3 text-uppercase">Mobile Development</div>
                                 <p>Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy.</p>
                             </div>
                         </div>
@@ -207,7 +140,7 @@
                         <div class="feature-box p-25px">
                             <i class="fal fa-desktop-alt fa-3x"></i>
                             <div class="feature-content">
-                                <div class="font-alt font-w-700 color-extra-dark-gray m-5px-b m-15px-t letter-spacing-3 text-uppercase">Graphic</div>
+                                <div class="font-alt font-w-700 color-extra-dark-gray m-5px-b m-15px-t letter-spacing-3 text-uppercase">Strategy</div>
                                 <p>Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy.</p>
                             </div>
                         </div>
@@ -224,72 +157,10 @@
 
         <!-- ========== Services End ========== -->
 
-        <!-- Work Flow -->
-        <section class="section bg-light-gray">
-            <div class="container">
-
-                <h4 class="heading-style-6 font-alt">My Work Flow</h4>
-                <!-- row -->
-                <div class="row m-60px-t">
-                    <div class="col-12 col-sm-6 col-md-4 wow fadeInLeft">
-                        <div class="feature-box-03 m-25px-b">
-                            <div class="feature-head">
-                                <i class="font-30 font-normal font-w-300 color-extra-dark-gray m-5px-t m-5px-l">01.</i>
-                                <span class="color-medium-gray font-11 text-uppercase letter-spacing-3">Small Title</span>
-                                <div class="font-alt font-w-700 text-uppercase letter-spacing-3 color-extra-dark-gray line-height-20">Feature Title</div>
-                            </div>
-                            <div class="feature-content m-10px-t">
-                                <p class="line-height-20">Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy.</p>
-                            </div>
-                            <!-- feature-content -->
-                        </div>
-                        <!-- feature-box -->
-                    </div>
-                    <!-- col -->
-
-                   <div class="col-12 col-sm-6 col-md-4 wow fadeInLeft">
-                        <div class="feature-box-03 m-25px-b">
-                            <div class="feature-head">
-                                <i class="font-30 font-normal font-w-300 color-extra-dark-gray m-5px-t m-5px-l">02.</i>
-                                <span class="color-medium-gray font-11 text-uppercase letter-spacing-3">Small Title</span>
-                                <div class="font-alt font-w-700 text-uppercase letter-spacing-3 color-extra-dark-gray line-height-20">Feature Title</div>
-                            </div>
-                            <div class="feature-content m-10px-t">
-                                <p class="line-height-20">Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy.</p>
-                            </div>
-                            <!-- feature-content -->
-                        </div>
-                        <!-- feature-box -->
-                    </div>
-                    <!-- col -->
-
-                    <div class="col-12 col-sm-6 col-md-4 wow fadeInLeft">
-                        <div class="feature-box-03 m-25px-b">
-                            <div class="feature-head">
-                                <i class="font-30 font-normal font-w-300 color-extra-dark-gray m-5px-t m-5px-l">03.</i>
-                                <span class="color-medium-gray font-11 text-uppercase letter-spacing-3">Small Title</span>
-                                <div class="font-alt font-w-700 text-uppercase letter-spacing-3 color-extra-dark-gray line-height-20">Feature Title</div>
-                            </div>
-                            <div class="feature-content m-10px-t">
-                                <p class="line-height-20">Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy.</p>
-                            </div>
-                            <!-- feature-content -->
-                        </div>
-                        <!-- feature-box -->
-                    </div>
-                    <!-- col -->
-                </div>
-                <!-- row -->
-            </div>
-            <!-- container -->
-        </section>
-        <!-- Work Flow End -->
-
-
-        <!-- ========== Portfoli Start ========== -->
+        <!-- ========== Portfolio Start ========== -->
         <section id="portfolio" class="section">
             <div class="container">
-                <h4 class="heading-style-6 font-alt">My Portfolio</h4>
+                <h4 class="heading-style-6 font-alt">Our Portfolio</h4>
 
                 <div class="portfolio-box">
                     <div class="filter filter-left text-left m-30px-b m-60px-t">
@@ -374,49 +245,60 @@
                 <!-- .portfolio-box -->
             </div>
         </section>
-        <!-- ========== Portfoli End ========== -->
+        <!-- ========== Portfolio End ========== -->
 
-        <!-- ========== Counter Start ========== -->
-        <section class="section counter-box bg-theme">
+        <!-- Work Flow -->
+        <section class="section bg-light-gray">
             <div class="container">
-                <div class="row">
-                    <div class="col-12 col-md-3 col-sm-6 wow fadeInLeft">
-                        <div class="feature-box">
-                            <div class="feature-content counter text-center" data-count="375">
-                                <div class="count font-alt font-w-700 font-80 color-white">375</div>
-                                <p class="text-uppercase color-white letter-spacing-3">Happy Clients</p>
+
+                <h4 class="heading-style-6 font-alt">The Work Flow</h4>
+                <!-- row -->
+                <div class="row m-60px-t">
+                    <div class="col-12 col-sm-6 col-md-4 wow fadeInLeft">
+                        <div class="feature-box-03 m-25px-b">
+                            <div class="feature-head">
+                                <i class="font-30 font-normal font-w-300 color-extra-dark-gray m-5px-t m-5px-l">01.</i>
+                                <span class="color-medium-gray font-11 text-uppercase letter-spacing-3">Small Title</span>
+                                <div class="font-alt font-w-700 text-uppercase letter-spacing-3 color-extra-dark-gray line-height-20">Feature Title</div>
                             </div>
+                            <div class="feature-content m-10px-t">
+                                <p class="line-height-20">Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy.</p>
+                            </div>
+                            <!-- feature-content -->
                         </div>
+                        <!-- feature-box -->
                     </div>
                     <!-- col -->
 
-                    <div class="col-12 col-md-3 col-sm-6 wow fadeInLeft">
-                        <div class="feature-box">
-                            <div class="feature-content counter text-center" data-count="375">
-                                <div class="count font-alt font-w-700 font-80 color-white">375</div>
-                                <p class="text-uppercase color-white letter-spacing-3">Telephonic Talk</p>
+                   <div class="col-12 col-sm-6 col-md-4 wow fadeInLeft">
+                        <div class="feature-box-03 m-25px-b">
+                            <div class="feature-head">
+                                <i class="font-30 font-normal font-w-300 color-extra-dark-gray m-5px-t m-5px-l">02.</i>
+                                <span class="color-medium-gray font-11 text-uppercase letter-spacing-3">Small Title</span>
+                                <div class="font-alt font-w-700 text-uppercase letter-spacing-3 color-extra-dark-gray line-height-20">Feature Title</div>
                             </div>
+                            <div class="feature-content m-10px-t">
+                                <p class="line-height-20">Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy.</p>
+                            </div>
+                            <!-- feature-content -->
                         </div>
+                        <!-- feature-box -->
                     </div>
                     <!-- col -->
 
-                    <div class="col-12 col-md-3 col-sm-6 wow fadeInLeft">
-                        <div class="feature-box">
-                            <div class="feature-content counter text-center" data-count="550">
-                                <div class="count font-alt font-w-700 font-80 color-white">550</div>
-                                <p class="text-uppercase color-white letter-spacing-3">Photo Capture</p>
+                    <div class="col-12 col-sm-6 col-md-4 wow fadeInLeft">
+                        <div class="feature-box-03 m-25px-b">
+                            <div class="feature-head">
+                                <i class="font-30 font-normal font-w-300 color-extra-dark-gray m-5px-t m-5px-l">03.</i>
+                                <span class="color-medium-gray font-11 text-uppercase letter-spacing-3">Small Title</span>
+                                <div class="font-alt font-w-700 text-uppercase letter-spacing-3 color-extra-dark-gray line-height-20">Feature Title</div>
                             </div>
-                        </div>
-                    </div>
-                    <!-- col -->
-
-                    <div class="col-12 col-md-3 col-sm-6 wow fadeInLeft">
-                        <div class="feature-box">
-                            <div class="feature-content counter text-center" data-count="450">
-                                <div class="count font-alt font-w-700 font-80 color-white">450</div>
-                                <p class="text-uppercase color-white letter-spacing-3">Project Completed</p>
+                            <div class="feature-content m-10px-t">
+                                <p class="line-height-20">Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy.</p>
                             </div>
+                            <!-- feature-content -->
                         </div>
+                        <!-- feature-box -->
                     </div>
                     <!-- col -->
                 </div>
@@ -424,8 +306,7 @@
             </div>
             <!-- container -->
         </section>
-        <!-- Section -->
-        <!-- ========== Counter End ========== -->
+        <!-- Work Flow End -->
 
         <!-- ========== What Pepole Say Start ========== -->
         <section class="section bg-cover bg-no-repeat bg-center-center" style="background-image:url(http://beyarsolutions.com/maria/maria/static/img/testimonialV2.png);">
@@ -451,83 +332,6 @@
         </section>
         <!--  Section -->
         <!-- ========== What Pepole Say End ========== -->
-
-        <!-- ========== Our Blog Start ========== -->
-        <section id="blog" class="section bg-light-gray">
-            <div class="container">
-                <h4 class="heading-style-6 font-alt">RECENT BLOG</h4>
-
-                <div class="row m-50px-t">
-                    <div class="col-12 col-md-4 wow fadeInUp">
-                        <!-- Blog Item -->
-                        <div class="blog-item bg-white box-shadow-light">
-                            <div class="blog-item-img">
-                                <a href="#"><img src="http://beyarsolutions.com/maria/maria/static/img/blog-img3.jpg" title="Maria" alt="Maria" /></a>
-                                <div class="blog-cat-link bg-theme">
-                                    <a class="color-white text-uppercase font-alt font-xs" href="#">UX Designer</a>
-                                </div>
-                            </div>
-                            <div class="blog-text p-40px md-p-20px">
-                                <a class="blog-title font-alt font-l color-extra-dark-gray text-uppercase w-100 display-inline-block v-aling-top m-5px-b" href="#">What Is UI and UX Design</a>
-                                <div class="author border-solid-b border-grey-b border-b-w-1 p-15px-b m-15px-b">
-                                    <span class="color-medium-gray text-uppercase font-xs">By Maria | 22 Jan 2018</span>
-                                </div>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy...</p>
-                            </div>
-                        </div>
-                        <!-- Blog Item End-->
-                    </div>
-                    <!-- col -->
-                    <div class="col-12 col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                        <!-- Blog Item -->
-                        <div class="blog-item bg-white box-shadow-light">
-                            <div class="blog-item-img">
-                                <a href="#"><img src="http://beyarsolutions.com/maria/maria/static/img/blog-img2.jpg" title="Maria" alt="Maria" /></a>
-                                <div class="blog-cat-link bg-theme">
-                                    <a class="color-white text-uppercase font-alt font-xs" href="#">UX Designer</a>
-                                </div>
-                            </div>
-                            <div class="blog-text p-40px p-40px md-p-20px">
-                                <a class="blog-title font-alt font-l color-extra-dark-gray text-uppercase w-100 display-inline-block v-aling-top m-5px-b" href="#">What Is UI and UX Design</a>
-                                <div class="author border-solid-b border-grey-b border-b-w-1 p-15px-b m-15px-b">
-                                    <span class="color-medium-gray text-uppercase font-xs">By Maria | 22 Jan 2018</span>
-                                </div>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy...</p>
-                            </div>
-                        </div>
-                        <!-- Blog Item End-->
-                    </div>
-                    <!-- col -->
-                    <div class="col-12 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
-                        <!-- Blog Item -->
-                        <div class="blog-item bg-white box-shadow-light">
-                            <div class="blog-item-img">
-                                <a href="#"><img src="http://beyarsolutions.com/maria/maria/static/img/blog-img1.jpg" title="Maria" alt="Maria" /></a>
-                                <div class="blog-cat-link bg-theme">
-                                    <a class="color-white text-uppercase font-alt font-xs" href="#">UX Designer</a>
-                                </div>
-                            </div>
-                            <div class="blog-text p-40px p-40px md-p-20px">
-                                <a class="blog-title font-alt font-l color-extra-dark-gray text-uppercase w-100 display-inline-block v-aling-top m-5px-b" href="#">What Is UI and UX Design</a>
-                                <div class="author border-solid-b border-grey-b border-b-w-1 p-15px-b m-15px-b">
-                                    <span class="color-medium-gray text-uppercase font-xs">By Maria | 22 Jan 2018</span>
-                                </div>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy...</p>
-                            </div>
-                        </div>
-                        <!-- Blog Item End-->
-                    </div>
-                    <!-- col -->
-                </div>
-                <!-- row -->
-
-            </div>
-            <!-- continar -->
-            <div class="btm-slanty-r border-extra-dark-gray"></div>
-        </section>
-        <!-- Section -->
-        <!-- ========== Our Blog End ========== -->
-
 
         <!-- ========== Contact us Start ========== -->
         <section id="contact" class="section bg-cover bg-no-repeat bg-center-center" style="background-image:url(http://beyarsolutions.com/maria/maria/static/img/contactv2.png);">
@@ -618,15 +422,15 @@
 
     <script type="text/javascript">
         new TypeIt('#type-it', {
-            speed: 200,
-            loop: true,
+            speed: 100,
+            loop: false,
+            lifeLike: true,
             strings: [
-                'Web Apps',
-                'Mobile Development',
-                'Design & Branding',
-                'Web Consulting'
+                'Web/Desktop',
+                'Mobile (Android & iOS)',
+                'UI/UX, Brand Strategy',
             ],
-            breakLines: false
+            breakLines: true
         });
     </script>
 </body>
