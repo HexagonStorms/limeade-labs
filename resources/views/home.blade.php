@@ -11,7 +11,7 @@
 
     <link href="/css/app.css" type="text/css" rel="stylesheet" />
     <!-- Apps -->
-    <script src="/js/fontawesome-all.js"></script>
+    <link href="/css/fontawesome-all.min.css" rel="stylesheet" />
     <link href="/css/owl.carousel.min.css" rel="stylesheet">
     <link href="/css/animate.css" rel="stylesheet">
     <!-- <link href="/css/style.css" rel="stylesheet"> -->
@@ -43,13 +43,11 @@
                     <div id="header-01" class="collapse navbar-collapse top-menu">
                         <!-- Menu Start -->
                         <ul class="nav navbar-nav ml-auto">
-                            <li><a class="current" href="#home">Home</a></li>
-                            <li><a href="#services">Services</a></li>
-                            @auth
-                            <li><a href="#portfolio">Portfolio</a></li>
-                            <li><a href="#portfolio">Work Flow</a></li>
-                            @endauth
-                            <li><a href="#contact">Contact</a></li>
+                            <li><a class="current js-scroll-trigger" href="#home">Home</a></li>
+                            <li><a class="js-scroll-trigger" href="#services">Services</a></li>
+                            <li><a class="js-scroll-trigger" href="#portfolio">Portfolio</a></li>
+                            <li><a class="js-scroll-trigger" href="#portfolio">Work Flow</a></li>
+                            <li><a class="js-scroll-trigger" href="#contact">Contact</a></li>
                         </ul>
                         <!-- Menu End -->
                     </div>
@@ -65,7 +63,7 @@
     <!-- ========== Main Start ========== -->
     <main>
         <!-- ========== Home Banner Start ========== -->
-        <section id="home" data-parallax="scroll" data-image-src="/img/j-kelly-brito-416265-unsplash.jpg"  class="home-banner-04 full-screen bg-center-top bg-cover bg-no-repeat" style="background-image:url(/img/j-kelly-brito-416265-unsplash.jpg); ">
+        <section id="home" data-parallax="scroll" data-image-src="/img/j-kelly-brito-416265-unsplash.jpg" class="home-banner-04 full-screen parallax-window bg-center-top bg-cover bg-no-repeat">
             <div class="container">
                 <div class="banner-center-text m-auto">
                     <label class="m-10px-l font-l text-uppercase color-extra-dark-gray wow fadeInLeft font-w-300">Top Shelf</label>
@@ -78,74 +76,66 @@
         <!-- ========== Home Banner End ========== -->
 
         <!-- ========== Services Start ========== -->
-        <section id="services" class="section">
+        <section id="services" class="section bg-black">
             <div class="container">
-                <h4 class="heading-style-6 font-alt">Our Services</h4>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-8 text-center m-60px-b">
+                        <h4 class="font-alt color-white text-uppercase font-w-600">Services</h4>
+                        <p class="w-70 color-medium-gray ml-auto mr-auto display-inline-block sm-w-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                            specimen book.</p>
+                    </div>
+                    <!-- col -->
+                </div>
+                <!-- row -->
 
                 <div class="row">
-                    <div class="col-12 col-md-6 col-lg-4 wow fadeInUp md-m-30px-b">
-                        <div class="feature-box p-25px">
-                            <i class="far fa-pencil fa-3x"></i>
+                    <div class="col-12 col-lg-3 col-md-6 md-m-30px-b wow fadeInUp">
+                        <div class="feature-box feature-hover text-center p-25px  box-shadow-light bg-white min-h-100">
+                            <i class="fa fa-paint-brush icon-round-small bg-black color-white"></i>
                             <div class="feature-content">
-                                <div class="font-alt font-w-700 color-extra-dark-gray m-5px-b m-15px-t letter-spacing-3 text-uppercase">Branding</div>
+                                <div class="font-alt font-w-600 color-extra-dark-gray m-5px-b m-15px-t">WEB DESIGN</div>
                                 <p>Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy.</p>
                             </div>
-                        </div>
-                        <!-- feature-box -->
-                    </div>
-                    <!-- col -->
-                    <div class="col-12 col-md-6 col-lg-4 wow fadeInUp md-m-30px-b">
-                        <div class="feature-box p-25px">
-                            <i class="far fa-code fa-3x"></i>
-                            <div class="feature-content">
-                                <div class="font-alt font-w-700 color-extra-dark-gray m-5px-b m-15px-t letter-spacing-3 text-uppercase">Web Development</div>
-                                <p>Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy.</p>
-                            </div>
-                        </div>
-                        <!-- feature-box -->
-                    </div>
-                    <!-- col -->
-                    <div class="col-12 col-md-6 col-lg-4 wow fadeInUp md-m-30px-b">
-                        <div class="feature-box p-25px">
-                            <i class="far fa-chart-area fa-3x"></i>
-                            <div class="feature-content">
-                                <div class="font-alt font-w-700 color-extra-dark-gray m-5px-b m-15px-t letter-spacing-3 text-uppercase">Graphics</div>
-                                <p>Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy.</p>
-                            </div>
+                            <div class="feature-overlay bg-extra-dark-gray"></div>
                         </div>
                         <!-- feature-box -->
                     </div>
                     <!-- col -->
 
-                    <div class="col-12 col-md-6 col-lg-4 wow fadeInUp md-m-30px-b">
-                        <div class="feature-box p-25px">
-                            <i class="far fa-browser fa-3x"></i>
+                    <div class="col-12 col-lg-3 col-md-6 md-m-30px-b wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="feature-box feature-hover text-center p-25px  box-shadow-light bg-white min-h-100">
+                            <i class="fa fa-mobile icon-round-small bg-black color-white"></i>
                             <div class="feature-content">
-                                <div class="font-alt font-w-700 color-extra-dark-gray m-5px-b m-15px-t letter-spacing-3 text-uppercase">Web Design</div>
+                                <div class="font-alt font-w-600 color-extra-dark-gray m-5px-b m-15px-t">MOBILE APPS</div>
                                 <p>Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy.</p>
                             </div>
+                            <div class="feature-overlay bg-extra-dark-gray"></div>
                         </div>
                         <!-- feature-box -->
                     </div>
                     <!-- col -->
-                    <div class="col-12 col-md-6 col-lg-4 wow fadeInUp md-m-30px-b">
-                        <div class="feature-box p-25px">
-                            <i class="far fa-mobile-alt fa-3x"></i>
+
+                    <div class="col-12 col-lg-3 col-md-6 md-m-30px-b wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="feature-box feature-hover text-center p-25px  box-shadow-light bg-white min-h-100">
+                            <i class="fa fa-code icon-round-small bg-black color-white"></i>
                             <div class="feature-content">
-                                <div class="font-alt font-w-700 color-extra-dark-gray m-5px-b m-15px-t letter-spacing-3 text-uppercase">Mobile Development</div>
+                                <div class="font-alt font-w-600 color-extra-dark-gray m-5px-b m-15px-t">WEB DEVELOPMENT</div>
                                 <p>Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy.</p>
                             </div>
+                            <div class="feature-overlay bg-extra-dark-gray"></div>
                         </div>
                         <!-- feature-box -->
                     </div>
                     <!-- col -->
-                    <div class="col-12 col-md-6 col-lg-4 wow fadeInUp md-m-30px-b">
-                        <div class="feature-box p-25px">
-                            <i class="fal fa-desktop-alt fa-3x"></i>
+
+                    <div class="col-12 col-lg-3 col-md-6 md-m-30px-b wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="feature-box feature-hover text-center p-25px  box-shadow-light bg-white min-h-100">
+                            <i class="fa fa-camera icon-round-small bg-black color-white"></i>
                             <div class="feature-content">
-                                <div class="font-alt font-w-700 color-extra-dark-gray m-5px-b m-15px-t letter-spacing-3 text-uppercase">Strategy</div>
+                                <div class="font-alt font-w-600 color-extra-dark-gray m-5px-b m-15px-t">Photography</div>
                                 <p>Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy.</p>
                             </div>
+                            <div class="feature-overlay bg-extra-dark-gray"></div>
                         </div>
                         <!-- feature-box -->
                     </div>
@@ -157,29 +147,39 @@
             <!-- container -->
         </section>
         <!-- section -->
-
         <!-- ========== Services End ========== -->
 
-        <!-- ========== Portfolio Start ========== -->
-        <section id="portfolio" class="section">
+        <!-- ========== Portfoli Start ========== -->
+        <section id="portfolio" class="section bg-extra-dark-gray">
             <div class="container">
-                <h4 class="heading-style-6 font-alt">Our Portfolio</h4>
+
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-8 text-center m-60px-b">
+                        <h4 class="font-alt color-white text-uppercase font-w-600">Portfolio</h4>
+                        <p class="w-70 ml-auto mr-auto display-inline-block sm-w-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                            specimen book.</p>
+                    </div>
+                    <!-- col -->
+                </div>
+                <!-- row -->
 
                 <div class="portfolio-box">
-                    <div class="filter filter-left text-left m-30px-b m-60px-t">
-                        <a href="javascript:void(0)" class="control letter-spacing-3" data-filter="all">All</a>
-                        <a href="javascript:void(0)" class="control letter-spacing-3" data-filter=".illustration">Illustration</a>
-                        <a href="javascript:void(0)" class="control letter-spacing-3" data-filter=".photoshop">Photoshop</a>
-                        <a href="javascript:void(0)" class="control letter-spacing-3" data-filter=".website">Website</a>
-                        <a href="javascript:void(0)" class="control letter-spacing-3" data-filter=".apps">Apps</a>
+                    <div class="filter filter-white text-center m-60px-b">
+                        <a href="javascript:void(0)" class="control" data-filter="all">All</a>
+                        <a href="javascript:void(0)" class="control" data-filter=".illustration">Illustration</a>
+                        <a href="javascript:void(0)" class="control" data-filter=".photoshop">Photoshop</a>
+                        <a href="javascript:void(0)" class="control" data-filter=".website">Website</a>
+                        <a href="javascript:void(0)" class="control" data-filter=".apps">Apps</a>
                     </div>
                     <!-- .filter -->
 
-                    <div class="portfolio-filter wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="portfolio-filter">
                         <div class="row">
-                            <div class="col-12 col-md-4 col-sm-6 mix illustration">
+                            <div class="col-12 col-sm-4 col-xs-6 mix illustration wow fadeInUp">
                                 <div class="portfolio-col">
-                                    <a href="#"><img src="http://beyarsolutions.com/maria/maria/static/img/portfolio-1.jpg" title="" alt="" /></a>
+                                    <a href="#">
+                        <img src="http://beyarsolutions.com/maria/maria/static/img/portfolio-1.jpg" title="" alt="" />
+                      </a>
                                     <div class="hover text-center">
                                         <p class="font-alt color-extra-dark-gray text-uppercase m-0 font-w-600">Illustration Work</p>
                                         <label class="font-s text-uppercase color-medium-gray">illustration</label>
@@ -187,9 +187,11 @@
                                 </div>
                             </div>
                             <!-- .col-sm-4 col-sm-12 -->
-                            <div class="col-12 col-md-4 col-sm-6 mix photoshop">
+                            <div class="col-12 col-sm-4 col-xs-6 mix photoshop wow fadeInUp" data-wow-delay="0.2s">
                                 <div class="portfolio-col">
-                                    <a href="#"><img src="http://beyarsolutions.com/maria/maria/static/img/portfolio-2.jpg" title="" alt="" /></a>
+                                    <a href="#">
+                        <img src="http://beyarsolutions.com/maria/maria/static/img/portfolio-2.jpg" title="" alt="" />
+                      </a>
                                     <div class="hover text-center">
                                         <p class="font-alt color-extra-dark-gray text-uppercase m-0 font-w-600">Photoshop Work</p>
                                         <label class="font-s text-uppercase color-medium-gray">photoshop</label>
@@ -197,9 +199,11 @@
                                 </div>
                             </div>
                             <!-- .col-sm-4 col-sm-12 -->
-                            <div class="col-12 col-md-4 col-sm-6 mix illustration">
+                            <div class="col-12 col-sm-4 col-xs-6 mix illustration wow fadeInUp" data-wow-delay="0.4s">
                                 <div class="portfolio-col">
-                                    <a href="#"><img src="http://beyarsolutions.com/maria/maria/static/img/portfolio-3.jpg" title="" alt="" /></a>
+                                    <a href="#">
+                        <img src="http://beyarsolutions.com/maria/maria/static/img/portfolio-3.jpg" title="" alt="" />
+                      </a>
                                     <div class="hover text-center">
                                         <p class="font-alt color-extra-dark-gray text-uppercase m-0 font-w-600">Illustration Work</p>
                                         <label class="font-s text-uppercase color-medium-gray">illustration</label>
@@ -208,9 +212,11 @@
                             </div>
                             <!-- .col-sm-4 col-sm-12 -->
 
-                            <div class="col-12 col-md-4 col-sm-6 mix photoshop">
+                            <div class="col-12 col-sm-4 col-xs-6 mix photoshop wow fadeInUp">
                                 <div class="portfolio-col">
-                                    <a href="#"><img src="http://beyarsolutions.com/maria/maria/static/img/portfolio-4.jpg" title="" alt="" /></a>
+                                    <a href="#">
+                        <img src="http://beyarsolutions.com/maria/maria/static/img/portfolio-4.jpg" title="" alt="" />
+                      </a>
                                     <div class="hover text-center">
                                         <p class="font-alt color-extra-dark-gray text-uppercase m-0 font-w-600">Photoshop Work</p>
                                         <label class="font-s text-uppercase color-medium-gray">photoshop</label>
@@ -218,9 +224,11 @@
                                 </div>
                             </div>
                             <!-- .col-sm-4 col-sm-12 -->
-                            <div class="col-12 col-md-4 col-sm-6 mix website">
+                            <div class="col-12 col-sm-4 col-xs-6 mix website wow fadeInUp" data-wow-delay="0.2s">
                                 <div class="portfolio-col">
-                                    <a href="#"><img src="http://beyarsolutions.com/maria/maria/static/img/portfolio-5.jpg" title="" alt="" /></a>
+                                    <a href="#">
+                        <img src="http://beyarsolutions.com/maria/maria/static/img/portfolio-5.jpg" title="" alt="" />
+                      </a>
                                     <div class="hover text-center">
                                         <p class="font-alt color-extra-dark-gray text-uppercase m-0 font-w-600">Website Work</p>
                                         <label class="font-s text-uppercase color-medium-gray">Website</label>
@@ -228,9 +236,11 @@
                                 </div>
                             </div>
                             <!-- .col-sm-4 col-sm-12 -->
-                            <div class="col-12 col-md-4 col-sm-6 mix apps">
+                            <div class="col-12 col-sm-4 col-xs-6 mix apps wow fadeInUp" data-wow-delay="0.4s">
                                 <div class="portfolio-col">
-                                    <a href="#"><img src="http://beyarsolutions.com/maria/maria/static/img/portfolio-6.jpg" title="" alt="" /></a>
+                                    <a href="#">
+                      <img src="http://beyarsolutions.com/maria/maria/static/img/portfolio-6.jpg" title="" alt="" />
+                      </a>
                                     <div class="hover text-center">
                                         <p class="font-alt color-extra-dark-gray text-uppercase m-0 font-w-600">Apps Work</p>
                                         <label class="font-s text-uppercase color-medium-gray">App</label>
@@ -249,6 +259,7 @@
             </div>
         </section>
         <!-- ========== Portfolio End ========== -->
+
 
         <!-- Work Flow -->
         <section class="section bg-light-gray">
@@ -273,7 +284,7 @@
                     </div>
                     <!-- col -->
 
-                   <div class="col-12 col-sm-6 col-md-4 wow fadeInLeft">
+                    <div class="col-12 col-sm-6 col-md-4 wow fadeInLeft">
                         <div class="feature-box-03 m-25px-b">
                             <div class="feature-head">
                                 <i class="font-30 font-normal font-w-300 color-extra-dark-gray m-5px-t m-5px-l">02.</i>
@@ -320,15 +331,18 @@
                         <div id="testimonials-slider-single" class="owl-carousel wow fadeInUp">
                             <div class="p-30px-l">
                                 <i class="fa fa-quote-left color-theme icon-s w-100 display-inline-block v-aling-top m-15px-t m-10px-b"></i>
-                                <p class="">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                                <p class="">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                                 <p class="font-alt text-uppercase color-theme m-0 letter-spacing-3 font-w-600">Maria Martin</p>
                                 <p class="font-alt text-uppercase color-medium-gray font-xs letter-spacing-3">UX Designer</p>
                             </div>
                             <!-- col -->
                         </div>
                         <!-- owl-carousel -->
-                    </div> <!-- col -->
-                </div> <!-- row -->
+                    </div>
+                    <!-- col -->
+                </div>
+                <!-- row -->
             </div>
             <!-- container -->
             <div class="btm-slanty-r border-white"></div>
@@ -337,64 +351,80 @@
         <!-- ========== What Pepole Say End ========== -->
 
         <!-- ========== Contact us Start ========== -->
-        <section id="contact" class="section bg-cover bg-no-repeat bg-center-center" style="background-image:url(http://beyarsolutions.com/maria/maria/static/img/contactv2.png);">
-            <div class="container">
-            <h4 class="heading-style-6 font-alt m-60px-b">Contact Us</h4>
-            <div class="row m-40px-t">
-              <div class="col-md-6 wow fadeInLeft">
-                <form>
-                  <div class="row">
-                    <div class="col-md-12">
-                        <input name="name" placeholder="Name *" class="input-big" type="text">
-                    </div>
-                    <div class="col-md-12">
-                        <input name="phone" placeholder="Phone" class="input-big" type="text">
-                    </div>
-                    <div class="col-md-12">
-                        <input name="email" placeholder="Email*" class="input-big" type="email">
-                    </div>
-                    <div class="col-md-12">
-                        <textarea name="comment" placeholder="Describe your project" rows="3" class="textarea-big"></textarea>
-                    </div>
-                    <div class="col-md-12">
-                        <button type="submit" class="btn btn-theme btn-l">send message</button>
-                    </div>
-                  </div>
-                </form> <!-- form -->
+        <section class="section bg-black">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-8 text-center m-60px-b">
+                <h4 class="font-alt text-uppercase font-w-600 color-white">REQUEST A QUOTE</h4>
+                <p class="w-70 ml-auto mr-auto display-inline-block sm-w-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
               </div><!-- col -->
-            </div> <!-- row -->
-          </div>
-
-            <div class="btm-slanty-r border-black"></div>
-
-        </section>
-        <!-- Section -->
+            </div><!-- row -->
+            <form>
+              <div class="row wow fadeInUp">
+                <div class="col-12 col-md-6">
+                    <input name="name" placeholder="Name *" class="input-big" type="text"/>
+                </div>
+                <div class="col-12 col-md-6">
+                    <input name="phone" placeholder="Phone" class="input-big" type="text"/>
+                </div>
+                <div class="col-12 col-md-6">
+                    <input name="email" placeholder="Email*" class="input-big" type="email"/>
+                </div>
+                <div class="col-12 col-md-6">
+                    <input name="website" placeholder="Website" class="input-big" type="text"/>
+                </div>
+                <div class="col-12 col-md-12">
+                    <textarea name="comment" placeholder="Describe your project" rows="6" class="textarea-big"></textarea>
+                </div>
+                <div class="col-md-12 text-center m-15px-t">
+                    <button type="submit" class="btn btn-theme btn-xl">send message</button>
+                </div>
+              </div>
+            </form> <!-- form -->
+          </div> <!-- container -->
+        </section><!-- Section -->
         <!-- ========== Contact us End ========== -->
 
     </main>
     <!-- ========== Main End ========== -->
 
     <!-- ========== Footer Start ========== -->
-    <footer>
-        <div class="footer-top p-50px-t p-40px-b">
-            <div class="container text-center">
-                <ul class="social-icons social-icons-small">
-                    <li>
-                        <a class="facebook" href="#"><i class="fab fa-facebook"></i></a>
-                    </li>
-                    <li>
-                        <a class="twitter" href="#"><i class="fab fa-twitter"></i></a>
-                    </li>
-                    <li>
-                        <a class="google" href="#"><i class="fab fa-google-plus"></i></a>
-                    </li>
-                    <li>
-                        <a class="linkedin" href="#"><i class="fab fa-linkedin"></i><span></span></a>
-                    </li>
-                </ul>
-                <p class="m-0 p-25px-t md-p-5px-t letter-spacing-3 text-uppercase color-extra-dark-gray">© 2018 Powered by Maria</p>
+    <footer id="contact" class="pt-4 bg-extra-dark-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-3 col-sm-6 text-center sm-m-25px-b wow fadeInUp">
+                    <i class="far fa-map-pin icon-round-small bg-theme color-white"></i>
+                    <p class="font-alt text-uppercase color-white font-w-600 m-15px-t m-5px-b font-14">Contact Address</p>
+                    <p class="color-medium-gray">801 Bryan Rd, <br/>Mission, Texas<br/>78572 </p>
+                </div>
+                <!-- col -->
+
+                <div class="col-12 col-md-3 col-sm-6 text-center sm-m-25px-b wow fadeInUp" data-wow-delay="0.2s">
+                    <i class="far fa-envelope-open icon-round-small bg-theme color-white"></i>
+                    <p class="font-alt text-uppercase color-white font-w-600 m-15px-t m-5px-b font-14">Let's talk</p>
+                    <p class="color-medium-gray">Phone: 1-210-827-9222</p>
+                </div>
+                <!-- col -->
+
+                <div class="col-12 col-md-3 col-sm-6 text-center sm-m-25px-b wow fadeInUp" data-wow-delay="0.4s">
+                    <i class="far fa-pencil icon-round-small bg-theme color-white"></i>
+                    <p class="font-alt text-uppercase color-white font-w-600 m-15px-t m-5px-b font-14">Email Us</p>
+                    <p class="color-medium-gray"><a class="color-medium-gray" href="mailto:hello@limeadelabs.com">hello@limeadelabs.com</a><br/></p>
+                </div>
+                <!-- col -->
+
+                <div class="col-12 col-md-3 col-sm-6 text-center sm-m-25px-b wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="div-round-small bg-theme">
+                        <img class="bg-theme" src="/img/texas-icon.png" style="width: 40px !important;"/>
+                    </div>
+                    <p class="font-alt text-uppercase color-white font-w-600 m-15px-t m-5px-b font-14">Crafted in Texas</p>
+                    <p class="color-medium-gray">Made with <i class="far fa-heart"></i> in Mission, Texas.</p>
+                </div>
+                <!-- col -->
             </div>
+            <!-- row -->
         </div>
+        <!-- container -->
     </footer>
     <!-- ========== Footer End ========== -->
 
@@ -434,6 +464,10 @@
                 'UI/UX, Brand Strategy',
             ],
             breakLines: true
+        });
+
+        $('.parallax-window').parallax({
+            imageSrc: '/img/j-kelly-brito-416265-unsplash.jpg'
         });
     </script>
 </body>
