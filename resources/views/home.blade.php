@@ -132,7 +132,7 @@
                         <div class="feature-box feature-hover text-center p-25px  box-shadow-light bg-white min-h-100">
                             <i class="fa fa-camera icon-round-small bg-black color-white"></i>
                             <div class="feature-content">
-                                <div class="font-alt font-w-600 color-extra-dark-gray m-5px-b m-15px-t">Photography</div>
+                                <div class="font-alt font-w-600 color-extra-dark-gray m-5px-b m-15px-t">PHOTOGRAPHY</div>
                                 <p>Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy.</p>
                             </div>
                             <div class="feature-overlay bg-extra-dark-gray"></div>
@@ -164,13 +164,13 @@
                 <!-- row -->
 
                 <div class="portfolio-box">
-                    <div class="filter filter-white text-center m-60px-b">
+                    <!-- <div class="filter filter-white text-center m-60px-b">
                         <a href="javascript:void(0)" class="control" data-filter="all">All</a>
                         <a href="javascript:void(0)" class="control" data-filter=".illustration">Illustration</a>
                         <a href="javascript:void(0)" class="control" data-filter=".photoshop">Photoshop</a>
                         <a href="javascript:void(0)" class="control" data-filter=".website">Website</a>
                         <a href="javascript:void(0)" class="control" data-filter=".apps">Apps</a>
-                    </div>
+                    </div> -->
                     <!-- .filter -->
 
                     <div class="portfolio-filter">
@@ -355,8 +355,8 @@
           <div class="container">
             <div class="row justify-content-center">
               <div class="col-12 col-md-8 text-center m-60px-b">
-                <h4 class="font-alt text-uppercase font-w-600 color-white">REQUEST A QUOTE</h4>
-                <p class="w-70 ml-auto mr-auto display-inline-block sm-w-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <h4 class="font-alt text-uppercase font-w-600 color-white">How About A Chat?</h4>
+                <p class="w-70 ml-auto mr-auto display-inline-block sm-w-100">We provide a free consultation to discover competitive advantages for your business. Contact us today to schedule an appointment.</p>
               </div><!-- col -->
             </div><!-- row -->
             <form>
@@ -402,7 +402,7 @@
                 <div class="col-12 col-md-3 col-sm-6 text-center sm-m-25px-b wow fadeInUp" data-wow-delay="0.2s">
                     <i class="far fa-envelope-open icon-round-small bg-theme color-white"></i>
                     <p class="font-alt text-uppercase color-white font-w-600 m-15px-t m-5px-b font-14">Let's talk</p>
-                    <p class="color-medium-gray">Phone: 1-210-827-9222</p>
+                    <p class="color-medium-gray">Phone: 210-827-9222</p>
                 </div>
                 <!-- col -->
 
