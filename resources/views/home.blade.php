@@ -42,11 +42,11 @@
                     <!-- Mobile Toggle End-->
                     <div id="header-01" class="collapse navbar-collapse top-menu">
                         <!-- Menu Start -->
-                        <ul class="nav navbar-nav ml-auto">
+                        <ul id="nav" class="nav navbar-nav ml-auto">
                             <li><a class="current js-scroll-trigger" href="#home">Home</a></li>
                             <li><a class="js-scroll-trigger" href="#services">Services</a></li>
                             <li><a class="js-scroll-trigger" href="#portfolio">Portfolio</a></li>
-                            <li><a class="js-scroll-trigger" href="#portfolio">Work Flow</a></li>
+                            <li><a class="js-scroll-trigger" href="#workflow">Work Flow</a></li>
                             <li><a class="js-scroll-trigger" href="#contact">Contact</a></li>
                         </ul>
                         <!-- Menu End -->
@@ -90,8 +90,8 @@
 
                 <div class="row">
                     <div class="col-12 col-lg-3 col-md-6 md-m-30px-b wow fadeInUp">
-                        <div class="feature-box feature-hover text-center p-25px  box-shadow-light bg-white min-h-100">
-                            <i class="fa fa-paint-brush icon-round-small bg-black color-white"></i>
+                        <div class="feature-box text-center p-25px  box-shadow-light bg-white min-h-100">
+                            <img src="/img/icons/animat-pencil.gif">
                             <div class="feature-content">
                                 <div class="font-alt font-w-600 color-extra-dark-gray m-5px-b m-15px-t">WEB DESIGN</div>
                                 <p>Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy.</p>
@@ -103,8 +103,8 @@
                     <!-- col -->
 
                     <div class="col-12 col-lg-3 col-md-6 md-m-30px-b wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="feature-box feature-hover text-center p-25px  box-shadow-light bg-white min-h-100">
-                            <i class="fa fa-mobile icon-round-small bg-black color-white"></i>
+                        <div class="feature-box text-center p-25px  box-shadow-light bg-white min-h-100">
+                            <img src="/img/icons/animat-responsive.gif">
                             <div class="feature-content">
                                 <div class="font-alt font-w-600 color-extra-dark-gray m-5px-b m-15px-t">MOBILE APPS</div>
                                 <p>Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy.</p>
@@ -116,8 +116,8 @@
                     <!-- col -->
 
                     <div class="col-12 col-lg-3 col-md-6 md-m-30px-b wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="feature-box feature-hover text-center p-25px  box-shadow-light bg-white min-h-100">
-                            <i class="fa fa-code icon-round-small bg-black color-white"></i>
+                        <div class="feature-box text-center p-25px  box-shadow-light bg-white min-h-100">
+                            <img src="/img/icons/animat-search.gif">
                             <div class="feature-content">
                                 <div class="font-alt font-w-600 color-extra-dark-gray m-5px-b m-15px-t">WEB DEVELOPMENT</div>
                                 <p>Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy.</p>
@@ -129,8 +129,8 @@
                     <!-- col -->
 
                     <div class="col-12 col-lg-3 col-md-6 md-m-30px-b wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="feature-box feature-hover text-center p-25px  box-shadow-light bg-white min-h-100">
-                            <i class="fa fa-camera icon-round-small bg-black color-white"></i>
+                        <div class="feature-box text-center p-25px  box-shadow-light bg-white min-h-100">
+                            <img src="/img/icons/animat-image.gif">
                             <div class="feature-content">
                                 <div class="font-alt font-w-600 color-extra-dark-gray m-5px-b m-15px-t">PHOTOGRAPHY</div>
                                 <p>Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy.</p>
@@ -150,8 +150,8 @@
         <!-- ========== Services End ========== -->
 
         <!-- ========== Portfoli Start ========== -->
-        <section id="portfolio" class="section bg-extra-dark-gray">
-            <div class="container">
+        <section id="portfolio" class="section bg-extra-dark-gray pb-5">
+            <div class="container wave-padding">
 
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-8 text-center m-60px-b">
@@ -260,9 +260,8 @@
         </section>
         <!-- ========== Portfolio End ========== -->
 
-
         <!-- Work Flow -->
-        <section class="section bg-light-gray">
+        <section id="workflow" class="section bg-white">
             <div class="container">
 
                 <h4 class="heading-style-6 font-alt">The Work Flow</h4>
@@ -322,74 +321,51 @@
         </section>
         <!-- Work Flow End -->
 
-        <!-- ========== What Pepole Say Start ========== -->
-        <section class="section bg-cover bg-no-repeat bg-center-center" style="background-image:url(http://beyarsolutions.com/maria/maria/static/img/testimonialV2.png);">
+        <!-- ========== Contact us Start ========== -->
+        <section id="contact" class="section bg-black">
             <div class="container">
-                <div class="row justify-content-end">
-                    <div class="col-12 col-md-5 bg-white-opacity">
-                        <h4 class="heading-style-6 font-alt">Testimonial</h4>
-                        <div id="testimonials-slider-single" class="owl-carousel wow fadeInUp">
-                            <div class="p-30px-l">
-                                <i class="fa fa-quote-left color-theme icon-s w-100 display-inline-block v-aling-top m-15px-t m-10px-b"></i>
-                                <p class="">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-                                <p class="font-alt text-uppercase color-theme m-0 letter-spacing-3 font-w-600">Maria Martin</p>
-                                <p class="font-alt text-uppercase color-medium-gray font-xs letter-spacing-3">UX Designer</p>
-                            </div>
-                            <!-- col -->
-                        </div>
-                        <!-- owl-carousel -->
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-8 text-center m-60px-b">
+                        <h4 class="font-alt text-uppercase font-w-600 color-white">How About A Chat?</h4>
+                        <p class="w-70 ml-auto mr-auto display-inline-block sm-w-100">We provide a free consultation to discover competitive advantages for your business. Contact us today to schedule an appointment.</p>
                     </div>
                     <!-- col -->
                 </div>
                 <!-- row -->
+                <form>
+                    <div class="row wow fadeInUp">
+                        <div class="col-12 col-md-6">
+                            <input name="name" placeholder="Name *" class="input-big" type="text" />
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <input name="phone" placeholder="Phone" class="input-big" type="text" />
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <input name="email" placeholder="Email*" class="input-big" type="email" />
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <input name="website" placeholder="Website" class="input-big" type="text" />
+                        </div>
+                        <div class="col-12 col-md-12">
+                            <textarea name="comment" placeholder="Describe your project" rows="6" class="textarea-big"></textarea>
+                        </div>
+                        <div class="col-md-12 text-center m-15px-t">
+                            <button type="submit" class="btn btn-theme btn-xl">send message</button>
+                        </div>
+                    </div>
+                </form>
+                <!-- form -->
             </div>
             <!-- container -->
-            <div class="btm-slanty-r border-white"></div>
         </section>
-        <!--  Section -->
-        <!-- ========== What Pepole Say End ========== -->
-
-        <!-- ========== Contact us Start ========== -->
-        <section class="section bg-black">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-12 col-md-8 text-center m-60px-b">
-                <h4 class="font-alt text-uppercase font-w-600 color-white">How About A Chat?</h4>
-                <p class="w-70 ml-auto mr-auto display-inline-block sm-w-100">We provide a free consultation to discover competitive advantages for your business. Contact us today to schedule an appointment.</p>
-              </div><!-- col -->
-            </div><!-- row -->
-            <form>
-              <div class="row wow fadeInUp">
-                <div class="col-12 col-md-6">
-                    <input name="name" placeholder="Name *" class="input-big" type="text"/>
-                </div>
-                <div class="col-12 col-md-6">
-                    <input name="phone" placeholder="Phone" class="input-big" type="text"/>
-                </div>
-                <div class="col-12 col-md-6">
-                    <input name="email" placeholder="Email*" class="input-big" type="email"/>
-                </div>
-                <div class="col-12 col-md-6">
-                    <input name="website" placeholder="Website" class="input-big" type="text"/>
-                </div>
-                <div class="col-12 col-md-12">
-                    <textarea name="comment" placeholder="Describe your project" rows="6" class="textarea-big"></textarea>
-                </div>
-                <div class="col-md-12 text-center m-15px-t">
-                    <button type="submit" class="btn btn-theme btn-xl">send message</button>
-                </div>
-              </div>
-            </form> <!-- form -->
-          </div> <!-- container -->
-        </section><!-- Section -->
+        <!-- Section -->
         <!-- ========== Contact us End ========== -->
 
     </main>
     <!-- ========== Main End ========== -->
 
     <!-- ========== Footer Start ========== -->
-    <footer id="contact" class="pt-4 bg-extra-dark-gray">
+    <footer class="pt-4 bg-extra-dark-gray">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-3 col-sm-6 text-center sm-m-25px-b wow fadeInUp">
@@ -415,7 +391,7 @@
 
                 <div class="col-12 col-md-3 col-sm-6 text-center sm-m-25px-b wow fadeInUp" data-wow-delay="0.6s">
                     <div class="div-round-small bg-theme">
-                        <img class="bg-theme" src="/img/texas-icon.png" style="width: 40px !important;"/>
+                        <img class="bg-theme" src="/img/texas-icon.png" style="width: 40px !important;" />
                     </div>
                     <p class="font-alt text-uppercase color-white font-w-600 m-15px-t m-5px-b font-14">Crafted in Texas</p>
                     <p class="color-medium-gray">Made with <i class="far fa-heart"></i> in Mission, Texas.</p>
@@ -445,8 +421,7 @@
     <!-- End -->
 
     <!-- Theme Js -->
-    <script src="/js/singlepagenavbar.js"></script>
-    <!-- for singlepagenav Header -->
+    <script src="/js/onepagenav.js"></script>
     <script src="/js/navbar.js"></script>
     <script src="/js/wow-style.js"></script>
 
@@ -464,6 +439,11 @@
                 'UI/UX, Brand Strategy',
             ],
             breakLines: true
+        });
+
+        $(document).ready(function() {
+            console.log('ready');
+            $('#nav').onePageNav();
         });
 
         $('.parallax-window').parallax({
