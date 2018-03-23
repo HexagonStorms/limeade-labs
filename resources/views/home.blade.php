@@ -8,8 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Limeade Labs | Home</title>
-
-    <link href="/css/app.css" type="text/css" rel="stylesheet" />
     <!-- Apps -->
     <link href="/css/fontawesome-all.min.css" rel="stylesheet" />
     <link href="/css/owl.carousel.min.css" rel="stylesheet">
@@ -21,6 +19,7 @@
     <link href="/css/style-main.css" rel="stylesheet">
     <link href="/css/default.css" rel="stylesheet" id="color_theme">
 
+    <link href="/css/app.css" type="text/css" rel="stylesheet" />
 </head>
 
 <body>
@@ -30,11 +29,11 @@
 
     <!-- ========== Header Start ========== -->
     <header class="header header-style-7 navbar-light">
-        <div class="container">
+        <div class="container-fluid">
             <!-- Nav -->
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">limeade labs</a>
+                    <a class="navbar-brand" href="/"><img src="/img/logo_namemark.png" width="200px"></a>
                     <!-- Mobile Toggle -->
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header-01" aria-controls="header-01" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -43,11 +42,11 @@
                     <div id="header-01" class="collapse navbar-collapse top-menu">
                         <!-- Menu Start -->
                         <ul id="nav" class="nav navbar-nav ml-auto">
-                            <li><a class="current js-scroll-trigger" href="#home">Home</a></li>
-                            <li><a class="js-scroll-trigger" href="#services">Services</a></li>
-                            <li><a class="js-scroll-trigger" href="#portfolio">Portfolio</a></li>
-                            <li><a class="js-scroll-trigger" href="#workflow">Work Flow</a></li>
-                            <li><a class="js-scroll-trigger" href="#contact">Contact</a></li>
+                            <li><a class="current js-scroll-trigger brand-secondary" href="#home">home</a></li>
+                            <li><a class="js-scroll-trigger brand-secondary" href="#services">services</a></li>
+                            <li><a class="js-scroll-trigger brand-secondary" href="#portfolio">portfolio</a></li>
+                            <li><a class="js-scroll-trigger brand-secondary" href="#workflow">work flow</a></li>
+                            <li><a class="js-scroll-trigger brand-secondary" href="#contact">contact</a></li>
                         </ul>
                         <!-- Menu End -->
                     </div>
@@ -66,10 +65,10 @@
         <section id="home" data-parallax="scroll" data-image-src="/img/j-kelly-brito-416265-unsplash.jpg" class="home-banner-04 full-screen parallax-window bg-center-top bg-cover bg-no-repeat">
             <div class="container">
                 <div class="banner-center-text m-auto brand-font">
-                    <label class="m-10px-l font-l color-extra-dark-gray wow fadeInLeft font-w-300">top shelf</label>
-                    <h1 class="font-alt font-w-500 color-extra-dark-gray m-10px-b wow fadeInLeft" data-wow-delay="0.1s">
+                    <label class="m-10px-l font-xl color-extra-dark-gray wow fadeInLeft font-w-300 brand-secondary">top shelf</label>
+                    <h1 class="font-alt font-w-500 color-extra-dark-gray m-10px-b wow fadeInLeft brand-secondary" data-wow-delay="0.1s">
                         digital<br> experiences</h1>
-                    <p id="type-it" class="m-10px-l font-w-300 color-extra-dark-gray font-25 text-uppercase wow fadeInLeft" data-wow-delay="0.2s"></p>
+                    <p id="type-it" class="m-10px-l font-w-300 brand-secondary font-25 text-uppercase wow fadeInLeft" data-wow-delay="0.2s"></p>
                 </div>
             </div>
         </section>
@@ -80,8 +79,8 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-8 text-center m-60px-b">
-                        <h4 class="font-alt color-white text-uppercase font-w-600">Services</h4>
-                        <p class="w-70 color-medium-gray ml-auto mr-auto display-inline-block sm-w-100">We are Limeade Labs, a -first studio focused on creating digital experiences. We employ all our knowledge to help our clients build their brands through interactivity.</p>
+                        <h4 class="color-white brand-font">services</h4>
+                        <p class="w-70 color-medium-gray ml-auto mr-auto display-inline-block sm-w-100 font-xl">We are Limeade Labs, a quality-first studio focused on creating digital experiences. We employ all our knowledge to help our clients build their brands through interactivity.</p>
                     </div>
                     <!-- col -->
                 </div>
@@ -148,15 +147,14 @@
         <!-- section -->
         <!-- ========== Services End ========== -->
 
-        <!-- ========== Portfoli Start ========== -->
+        <!-- ========== Portfolio Start ========== -->
         <section id="portfolio" class="section bg-extra-dark-gray pb-5">
             <div class="container wave-padding">
 
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-8 text-center m-60px-b">
-                        <h4 class="font-alt color-white text-uppercase font-w-600">Portfolio</h4>
-                        <!-- <p class="w-70 ml-auto mr-auto display-inline-block sm-w-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
-                            specimen book.</p> -->
+                        <h4 class="color-white brand-font">portfolio</h4>
+                        <p class="w-70 color-medium-gray ml-auto mr-auto display-inline-block sm-w-100 font-xl">We're ready to help your team make a big splash in 2018. Drop us a line to hear what we can do for you.</p>
                     </div>
                     <!-- col -->
                 </div>
@@ -222,20 +220,20 @@
 
         <!-- Work Flow -->
         <section id="workflow" class="section bg-white">
-            <div class="container">
+            <div class="container font-m">
 
-                <h4 class="heading-style-6 font-alt">The Work Flow</h4>
+                <h4 class="heading-style-6 brand-font">our work flow</h4>
                 <!-- row -->
                 <div class="row m-60px-t">
                     <div class="col-12 col-sm-6 col-md-4 wow fadeInLeft">
                         <div class="feature-box-03 m-25px-b">
                             <div class="feature-head">
                                 <i class="font-30 font-normal font-w-300 color-extra-dark-gray m-5px-t m-5px-l">01.</i>
-                                <span class="color-medium-gray font-11 text-uppercase letter-spacing-3">Small Title</span>
-                                <div class="font-alt font-w-700 text-uppercase letter-spacing-3 color-extra-dark-gray line-height-20">Feature Title</div>
+                                <span class="color-medium-gray font-11 text-uppercase letter-spacing-3">Strategic Planning</span>
+                                <div class="font-alt font-w-700 text-uppercase letter-spacing-3 color-extra-dark-gray line-height-20">Establishing the Goal</div>
                             </div>
                             <div class="feature-content m-10px-t">
-                                <p class="line-height-20">Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy.</p>
+                                <p class="line-height-20">We work with you to talk about the best approach we can take for your project. We'll provide you with plenty of options and ask about how you want your digital experience to be represented.</p>
                             </div>
                             <!-- feature-content -->
                         </div>
@@ -247,11 +245,11 @@
                         <div class="feature-box-03 m-25px-b">
                             <div class="feature-head">
                                 <i class="font-30 font-normal font-w-300 color-extra-dark-gray m-5px-t m-5px-l">02.</i>
-                                <span class="color-medium-gray font-11 text-uppercase letter-spacing-3">Small Title</span>
-                                <div class="font-alt font-w-700 text-uppercase letter-spacing-3 color-extra-dark-gray line-height-20">Feature Title</div>
+                                <span class="color-medium-gray font-11 text-uppercase letter-spacing-3">Sprint Culture</span>
+                                <div class="font-alt font-w-700 text-uppercase letter-spacing-3 color-extra-dark-gray line-height-20">Build, Test, Integrate</div>
                             </div>
                             <div class="feature-content m-10px-t">
-                                <p class="line-height-20">Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy.</p>
+                                <p class="line-height-20">We're transparent in sharing our progress with your project. We make the deadlines we establish due to our years of experience in the industry.</p>
                             </div>
                             <!-- feature-content -->
                         </div>
@@ -263,11 +261,11 @@
                         <div class="feature-box-03 m-25px-b">
                             <div class="feature-head">
                                 <i class="font-30 font-normal font-w-300 color-extra-dark-gray m-5px-t m-5px-l">03.</i>
-                                <span class="color-medium-gray font-11 text-uppercase letter-spacing-3">Small Title</span>
-                                <div class="font-alt font-w-700 text-uppercase letter-spacing-3 color-extra-dark-gray line-height-20">Feature Title</div>
+                                <span class="color-medium-gray font-11 text-uppercase letter-spacing-3">Test, Critique, Improve</span>
+                                <div class="font-alt font-w-700 text-uppercase letter-spacing-3 color-extra-dark-gray line-height-20">We are testaholics</div>
                             </div>
                             <div class="feature-content m-10px-t">
-                                <p class="line-height-20">Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy.</p>
+                                <p class="line-height-20">Squashing out bugs and ensuring your application is solid is our obsession. We sleep about amazing test-driven development practices and maximum flexibility for scalable code.</p>
                             </div>
                             <!-- feature-content -->
                         </div>
@@ -286,30 +284,30 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-8 text-center m-60px-b">
-                        <h4 class="font-alt text-uppercase font-w-600 color-white">How About A Chat?</h4>
-                        <p class="w-70 ml-auto mr-auto display-inline-block sm-w-100">We provide a free consultation to discover competitive advantages for your business. Contact us today to schedule an appointment.</p>
+                        <h4 class="brand-font color-white">let's chat</h4>
+                        <p class="w-70 color-medium-gray ml-auto mr-auto display-inline-block sm-w-100 font-xl">We provide a free consultation to discover competitive advantages for your business. Contact us today to schedule an appointment.</p>
                     </div>
                     <!-- col -->
                 </div>
                 <!-- row -->
                 <form>
                     <div class="row wow fadeInUp">
-                        <div class="col-12 col-md-6">
+                        <div class="col-12 col-md-6 mt-4">
                             <input name="name" placeholder="Name *" class="input-big" type="text" />
                         </div>
-                        <div class="col-12 col-md-6">
+                        <div class="col-12 col-md-6 mt-4">
                             <input name="phone" placeholder="Phone" class="input-big" type="text" />
                         </div>
-                        <div class="col-12 col-md-6">
+                        <div class="col-12 col-md-6 mt-4">
                             <input name="email" placeholder="Email*" class="input-big" type="email" />
                         </div>
-                        <div class="col-12 col-md-6">
+                        <div class="col-12 col-md-6 mt-4">
                             <input name="website" placeholder="Website" class="input-big" type="text" />
                         </div>
-                        <div class="col-12 col-md-12">
+                        <div class="col-12 col-md-12 mt-4">
                             <textarea name="comment" placeholder="Describe your project" rows="6" class="textarea-big"></textarea>
                         </div>
-                        <div class="col-md-12 text-center m-15px-t">
+                        <div class="col-md-12 mt-4 text-center m-15px-t">
                             <button type="submit" class="btn btn-theme btn-xl">send message</button>
                         </div>
                     </div>
@@ -337,7 +335,7 @@
 
                 <div class="col-12 col-md-3 col-sm-6 text-center sm-m-25px-b wow fadeInUp" data-wow-delay="0.2s">
                     <i class="far fa-envelope-open icon-round-small bg-theme color-white"></i>
-                    <p class="font-alt text-uppercase color-white font-w-600 m-15px-t m-5px-b font-14">Let's talk</p>
+                    <p class="font-alt text-uppercase color-white font-w-600 m-15px-t m-5px-b font-14">Talk to us</p>
                     <p class="color-medium-gray">Phone: 210-827-9222</p>
                 </div>
                 <!-- col -->
@@ -401,10 +399,7 @@
             breakLines: true
         });
 
-        $(document).ready(function() {
-            console.log('ready');
-            $('#nav').onePageNav();
-        });
+        $('#nav').onePageNav();
 
         $('.parallax-window').parallax({
             imageSrc: '/img/j-kelly-brito-416265-unsplash.jpg'

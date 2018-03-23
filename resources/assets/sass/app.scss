@@ -1,5 +1,5 @@
 // Fonts
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
 
 @font-face {
     font-family: 'Ubuntu Titling Rg';
@@ -16,15 +16,31 @@
 @import "variables";
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
 // Override Theme
+body, p {
+    font-family: 'Roboto Slab';
+}
 
 .header-style-7 {
     background: #fff !important;
     font-family: 'Ubuntu Titling Rg';
 }
 
-.brand-font {
-    font-family: 'Ubuntu Titling Rg';
+.header-style-7 .navbar-nav > li > a:after {
+    background: $brand-secondary;
+}
+
+.brand-font, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu Titling Rg' !important;
+}
+
+.brand-secondary {
+    color: $brand-secondary !important;
+}
+
+.bg-secondary {
+    background: $brand-secondary !important;
 }
 
 .div-round-small {

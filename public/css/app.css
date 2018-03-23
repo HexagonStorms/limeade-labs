@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);@font-face {
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);@font-face {
   font-family: 'Ubuntu Titling Rg';
   src: url("/webfonts/UbuntuTitling-Bold.eot");
   src: url("/webfonts/UbuntuTitling-Bold.eot?#iefix") format("embedded-opentype"), url("/webfonts/UbuntuTitling-Bold.woff2") format("woff2"), url("/webfonts/UbuntuTitling-Bold.woff") format("woff"), url("/webfonts/UbuntuTitling-Bold.svg#UbuntuTitling-Bold") format("svg");
@@ -10002,13 +10002,36 @@ a.text-dark:focus {
   }
 }
 
+body,
+p {
+  font-family: 'Roboto Slab';
+}
+
 .header-style-7 {
   background: #fff !important;
   font-family: 'Ubuntu Titling Rg';
 }
 
-.brand-font {
-  font-family: 'Ubuntu Titling Rg';
+.header-style-7 .navbar-nav > li > a:after {
+  background: #53473c;
+}
+
+.brand-font,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Ubuntu Titling Rg' !important;
+}
+
+.brand-secondary {
+  color: #53473c !important;
+}
+
+.bg-secondary {
+  background: #53473c !important;
 }
 
 .div-round-small {
