@@ -1,5 +1,4 @@
 (function (jQuery) {
-    console.log('hello');
     jQuery.fn.singlePageNav = function (options) {
 
         // Settings
@@ -69,8 +68,6 @@
                 var self = this;
                 var links = this.menu.find('a[href^="#"]');
                 this.window.bind('scroll', function() {
-                    console.log('hello1');
-
                     // Get current section
                     var current_section = self.get_current_section();
                     if (current_section != null) {

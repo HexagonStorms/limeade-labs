@@ -1,12 +1,30 @@
 // Fonts
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+@font-face {
+    font-family: 'Ubuntu Titling Rg';
+    src: url('/webfonts/UbuntuTitling-Bold.eot');
+    src: url('/webfonts/UbuntuTitling-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/webfonts/UbuntuTitling-Bold.woff2') format('woff2'),
+        url('/webfonts/UbuntuTitling-Bold.woff') format('woff'),
+        url('/webfonts/UbuntuTitling-Bold.svg#UbuntuTitling-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
 // Variables
 @import "variables";
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 // Override Theme
+
 .header-style-7 {
-    color: #fff !important;
+    background: #fff !important;
+    font-family: 'Ubuntu Titling Rg';
+}
+
+.brand-font {
+    font-family: 'Ubuntu Titling Rg';
 }
 
 .div-round-small {

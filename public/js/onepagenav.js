@@ -75,8 +75,6 @@
 		},
 
 		adjustNav: function(self, $parent) {
-            console.log(self);
-            console.log($parent);
 			self.$elem.find('.' + self.config.currentClass).removeClass(self.config.currentClass);
 			$parent.children('a').addClass(self.config.currentClass);
 		},

@@ -65,10 +65,10 @@
         <!-- ========== Home Banner Start ========== -->
         <section id="home" data-parallax="scroll" data-image-src="/img/j-kelly-brito-416265-unsplash.jpg" class="home-banner-04 full-screen parallax-window bg-center-top bg-cover bg-no-repeat">
             <div class="container">
-                <div class="banner-center-text m-auto">
-                    <label class="m-10px-l font-l text-uppercase color-extra-dark-gray wow fadeInLeft font-w-300">Top Shelf</label>
+                <div class="banner-center-text m-auto brand-font">
+                    <label class="m-10px-l font-l color-extra-dark-gray wow fadeInLeft font-w-300">top shelf</label>
                     <h1 class="font-alt font-w-500 color-extra-dark-gray m-10px-b wow fadeInLeft" data-wow-delay="0.1s">
-                        Development</h1>
+                        digital<br> experiences</h1>
                     <p id="type-it" class="m-10px-l font-w-300 color-extra-dark-gray font-25 text-uppercase wow fadeInLeft" data-wow-delay="0.2s"></p>
                 </div>
             </div>
@@ -81,8 +81,7 @@
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-8 text-center m-60px-b">
                         <h4 class="font-alt color-white text-uppercase font-w-600">Services</h4>
-                        <p class="w-70 color-medium-gray ml-auto mr-auto display-inline-block sm-w-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
-                            specimen book.</p>
+                        <p class="w-70 color-medium-gray ml-auto mr-auto display-inline-block sm-w-100">We are Limeade Labs, a -first studio focused on creating digital experiences. We employ all our knowledge to help our clients build their brands through interactivity.</p>
                     </div>
                     <!-- col -->
                 </div>
@@ -94,7 +93,7 @@
                             <img src="/img/icons/animat-pencil.gif">
                             <div class="feature-content">
                                 <div class="font-alt font-w-600 color-extra-dark-gray m-5px-b m-15px-t">WEB DESIGN</div>
-                                <p>Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy.</p>
+                                <p>Everything we create is curated to your needs. We do not take shortcuts when it comes to quality work.</p>
                             </div>
                             <div class="feature-overlay bg-extra-dark-gray"></div>
                         </div>
@@ -106,8 +105,8 @@
                         <div class="feature-box text-center p-25px  box-shadow-light bg-white min-h-100">
                             <img src="/img/icons/animat-responsive.gif">
                             <div class="feature-content">
-                                <div class="font-alt font-w-600 color-extra-dark-gray m-5px-b m-15px-t">MOBILE APPS</div>
-                                <p>Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy.</p>
+                                <div class="font-alt font-w-600 color-extra-dark-gray m-5px-b m-15px-t">MOBILE DEVELOPMENT</div>
+                                <p>We use hybrid development to design and construct apps for both Android & iOS simultaneously.</p>
                             </div>
                             <div class="feature-overlay bg-extra-dark-gray"></div>
                         </div>
@@ -120,7 +119,7 @@
                             <img src="/img/icons/animat-search.gif">
                             <div class="feature-content">
                                 <div class="font-alt font-w-600 color-extra-dark-gray m-5px-b m-15px-t">WEB DEVELOPMENT</div>
-                                <p>Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy.</p>
+                                <p>We create web applications aimed for good readability and navigation on tablets and smartphones.</p>
                             </div>
                             <div class="feature-overlay bg-extra-dark-gray"></div>
                         </div>
@@ -133,7 +132,7 @@
                             <img src="/img/icons/animat-image.gif">
                             <div class="feature-content">
                                 <div class="font-alt font-w-600 color-extra-dark-gray m-5px-b m-15px-t">PHOTOGRAPHY</div>
-                                <p>Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy.</p>
+                                <p>Sometimes the best thing missing is high-quality photography to showcase the great aspects of your company.</p>
                             </div>
                             <div class="feature-overlay bg-extra-dark-gray"></div>
                         </div>
@@ -156,8 +155,8 @@
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-8 text-center m-60px-b">
                         <h4 class="font-alt color-white text-uppercase font-w-600">Portfolio</h4>
-                        <p class="w-70 ml-auto mr-auto display-inline-block sm-w-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
-                            specimen book.</p>
+                        <!-- <p class="w-70 ml-auto mr-auto display-inline-block sm-w-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                            specimen book.</p> -->
                     </div>
                     <!-- col -->
                 </div>
@@ -178,11 +177,11 @@
                             <div class="col-12 col-sm-4 col-xs-6 mix illustration wow fadeInUp">
                                 <div class="portfolio-col">
                                     <a href="#">
-                        <img src="http://beyarsolutions.com/maria/maria/static/img/portfolio-1.jpg" title="" alt="" />
-                      </a>
+                                        <img src="http://beyarsolutions.com/maria/maria/static/img/portfolio-1.jpg" title="" alt="" />
+                                    </a>
                                     <div class="hover text-center">
-                                        <p class="font-alt color-extra-dark-gray text-uppercase m-0 font-w-600">Illustration Work</p>
-                                        <label class="font-s text-uppercase color-medium-gray">illustration</label>
+                                        <p class="font-alt color-extra-dark-gray text-uppercase m-0 font-w-600">Feed by Parlevel</p>
+                                        <label class="font-s text-uppercase color-medium-gray">Mobile App for Android/iOS</label>
                                     </div>
                                 </div>
                             </div>
@@ -190,11 +189,11 @@
                             <div class="col-12 col-sm-4 col-xs-6 mix photoshop wow fadeInUp" data-wow-delay="0.2s">
                                 <div class="portfolio-col">
                                     <a href="#">
-                        <img src="http://beyarsolutions.com/maria/maria/static/img/portfolio-2.jpg" title="" alt="" />
-                      </a>
+                                        <img src="http://beyarsolutions.com/maria/maria/static/img/portfolio-2.jpg" title="" alt="" />
+                                    </a>
                                     <div class="hover text-center">
-                                        <p class="font-alt color-extra-dark-gray text-uppercase m-0 font-w-600">Photoshop Work</p>
-                                        <label class="font-s text-uppercase color-medium-gray">photoshop</label>
+                                        <p class="font-alt color-extra-dark-gray text-uppercase m-0 font-w-600">Link by Parlevel</p>
+                                        <label class="font-s text-uppercase color-medium-gray">Micro Market / OCS / Vending Customer Portal</label>
                                     </div>
                                 </div>
                             </div>
@@ -202,53 +201,14 @@
                             <div class="col-12 col-sm-4 col-xs-6 mix illustration wow fadeInUp" data-wow-delay="0.4s">
                                 <div class="portfolio-col">
                                     <a href="#">
-                        <img src="http://beyarsolutions.com/maria/maria/static/img/portfolio-3.jpg" title="" alt="" />
-                      </a>
+                                        <img src="http://beyarsolutions.com/maria/maria/static/img/portfolio-3.jpg" title="" alt="" />
+                                    </a>
                                     <div class="hover text-center">
-                                        <p class="font-alt color-extra-dark-gray text-uppercase m-0 font-w-600">Illustration Work</p>
-                                        <label class="font-s text-uppercase color-medium-gray">illustration</label>
+                                        <p class="font-alt color-extra-dark-gray text-uppercase m-0 font-w-600">The Parlevel Store</p>
+                                        <label class="font-s text-uppercase color-medium-gray">eCommerce Vending Platform</label>
                                     </div>
                                 </div>
                             </div>
-                            <!-- .col-sm-4 col-sm-12 -->
-
-                            <div class="col-12 col-sm-4 col-xs-6 mix photoshop wow fadeInUp">
-                                <div class="portfolio-col">
-                                    <a href="#">
-                        <img src="http://beyarsolutions.com/maria/maria/static/img/portfolio-4.jpg" title="" alt="" />
-                      </a>
-                                    <div class="hover text-center">
-                                        <p class="font-alt color-extra-dark-gray text-uppercase m-0 font-w-600">Photoshop Work</p>
-                                        <label class="font-s text-uppercase color-medium-gray">photoshop</label>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- .col-sm-4 col-sm-12 -->
-                            <div class="col-12 col-sm-4 col-xs-6 mix website wow fadeInUp" data-wow-delay="0.2s">
-                                <div class="portfolio-col">
-                                    <a href="#">
-                        <img src="http://beyarsolutions.com/maria/maria/static/img/portfolio-5.jpg" title="" alt="" />
-                      </a>
-                                    <div class="hover text-center">
-                                        <p class="font-alt color-extra-dark-gray text-uppercase m-0 font-w-600">Website Work</p>
-                                        <label class="font-s text-uppercase color-medium-gray">Website</label>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- .col-sm-4 col-sm-12 -->
-                            <div class="col-12 col-sm-4 col-xs-6 mix apps wow fadeInUp" data-wow-delay="0.4s">
-                                <div class="portfolio-col">
-                                    <a href="#">
-                      <img src="http://beyarsolutions.com/maria/maria/static/img/portfolio-6.jpg" title="" alt="" />
-                      </a>
-                                    <div class="hover text-center">
-                                        <p class="font-alt color-extra-dark-gray text-uppercase m-0 font-w-600">Apps Work</p>
-                                        <label class="font-s text-uppercase color-medium-gray">App</label>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- .col-sm-4 col-xs-6 -->
-
                         </div>
                         <!-- .row -->
                     </div>
