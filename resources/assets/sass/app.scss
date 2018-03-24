@@ -31,6 +31,10 @@ body, p {
     background: $brand-secondary;
 }
 
+.header-style-7.fixed-header .navbar-nav > li > a:after {
+    background: $brand-secondary;
+}
+
 .brand-font, h1, h2, h3, h4, h5, h6 {
     font-family: 'Ubuntu Titling Rg' !important;
 }
@@ -69,7 +73,7 @@ body, p {
 
 #portfolio:after {
     content: "";
-    background: url(/img/wave.png) scroll bottom left repeat-x;
+    background: url(/img/backgrounds/wave.png) scroll bottom left repeat-x;
     position: absolute;
     width: 100%;
     height: 182px;

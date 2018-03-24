@@ -33,7 +33,7 @@
             <!-- Nav -->
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="/"><img src="/img/logo_namemark.png" width="200px"></a>
+                    <a class="navbar-brand" href="/"><img src="/img/logos/namemark.png" width="200px"></a>
                     <!-- Mobile Toggle -->
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header-01" aria-controls="header-01" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -62,7 +62,7 @@
     <!-- ========== Main Start ========== -->
     <main>
         <!-- ========== Home Banner Start ========== -->
-        <section id="home" data-parallax="scroll" data-image-src="/img/j-kelly-brito-416265-unsplash.jpg" class="home-banner-04 full-screen parallax-window bg-center-top bg-cover bg-no-repeat">
+        <section id="home" data-parallax="scroll" data-image-src="/img/backgrounds/j-kelly-brito-416265-unsplash.jpg" class="home-banner-04 full-screen parallax-window bg-center-top bg-cover bg-no-repeat">
             <div class="container">
                 <div class="banner-center-text m-auto brand-font">
                     <label class="m-10px-l font-xl color-extra-dark-gray wow fadeInLeft font-w-300 brand-secondary">top shelf</label>
@@ -75,7 +75,7 @@
         <!-- ========== Home Banner End ========== -->
 
         <!-- ========== Services Start ========== -->
-        <section id="services" class="section bg-black">
+        <section id="services" class="section bg-extra-dark-gray">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-8 text-center m-60px-b">
@@ -148,7 +148,7 @@
         <!-- ========== Services End ========== -->
 
         <!-- ========== Portfolio Start ========== -->
-        <section id="portfolio" class="section bg-extra-dark-gray pb-5">
+        <section id="portfolio" class="section bg-black pb-5">
             <div class="container wave-padding">
 
                 <div class="row justify-content-center">
@@ -175,7 +175,7 @@
                             <div class="col-12 col-sm-4 col-xs-6 mix illustration wow fadeInUp">
                                 <div class="portfolio-col">
                                     <a href="#">
-                                        <img src="http://beyarsolutions.com/maria/maria/static/img/portfolio-1.jpg" title="" alt="" />
+                                        <img src="/img/portfolio/feed-by-parlevel.jpg" title="Feed by Parlevel available for iOS/Android" alt="Feed iOS/Android App" />
                                     </a>
                                     <div class="hover text-center">
                                         <p class="font-alt color-extra-dark-gray text-uppercase m-0 font-w-600">Feed by Parlevel</p>
@@ -187,7 +187,7 @@
                             <div class="col-12 col-sm-4 col-xs-6 mix photoshop wow fadeInUp" data-wow-delay="0.2s">
                                 <div class="portfolio-col">
                                     <a href="#">
-                                        <img src="http://beyarsolutions.com/maria/maria/static/img/portfolio-2.jpg" title="" alt="" />
+                                        <img src="/img/portfolio/parlevel-link-3.jpg" title="Parlevel Link" alt="Parlevel Link" />
                                     </a>
                                     <div class="hover text-center">
                                         <p class="font-alt color-extra-dark-gray text-uppercase m-0 font-w-600">Link by Parlevel</p>
@@ -199,7 +199,7 @@
                             <div class="col-12 col-sm-4 col-xs-6 mix illustration wow fadeInUp" data-wow-delay="0.4s">
                                 <div class="portfolio-col">
                                     <a href="#">
-                                        <img src="http://beyarsolutions.com/maria/maria/static/img/portfolio-3.jpg" title="" alt="" />
+                                        <img src="/img/portfolio/parlevel-store.jpg" title="Parlevel Store" alt="Parlevel Store" />
                                     </a>
                                     <div class="hover text-center">
                                         <p class="font-alt color-extra-dark-gray text-uppercase m-0 font-w-600">The Parlevel Store</p>
@@ -280,7 +280,7 @@
         <!-- Work Flow End -->
 
         <!-- ========== Contact us Start ========== -->
-        <section id="contact" class="section bg-black">
+        <section id="contact" class="section bg-extra-dark-gray">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-8 text-center m-60px-b">
@@ -323,7 +323,7 @@
     <!-- ========== Main End ========== -->
 
     <!-- ========== Footer Start ========== -->
-    <footer class="pt-4 bg-extra-dark-gray">
+    <footer class="pt-4 bg-white">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-3 col-sm-6 text-center sm-m-25px-b wow fadeInUp">
@@ -349,7 +349,7 @@
 
                 <div class="col-12 col-md-3 col-sm-6 text-center sm-m-25px-b wow fadeInUp" data-wow-delay="0.6s">
                     <div class="div-round-small bg-theme">
-                        <img class="bg-theme" src="/img/texas-icon.png" style="width: 40px !important;" />
+                        <img class="bg-theme" src="/img/icons/texas.png" style="width: 40px !important;" />
                     </div>
                     <p class="font-alt text-uppercase color-white font-w-600 m-15px-t m-5px-b font-14">Crafted in Texas</p>
                     <p class="color-medium-gray">Made with <i class="far fa-heart"></i> in Mission, Texas.</p>
@@ -402,7 +402,7 @@
         $('#nav').onePageNav();
 
         $('.parallax-window').parallax({
-            imageSrc: '/img/j-kelly-brito-416265-unsplash.jpg'
+            imageSrc: '/img/backgrounds/j-kelly-brito-416265-unsplash.jpg'
         });
     </script>
 </body>

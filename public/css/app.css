@@ -10016,6 +10016,10 @@ p {
   background: #53473c;
 }
 
+.header-style-7.fixed-header .navbar-nav > li > a:after {
+  background: #53473c;
+}
+
 .brand-font,
 h1,
 h2,
@@ -10060,7 +10064,7 @@ h6 {
 
 #portfolio:after {
   content: "";
-  background: url(/img/wave.png) scroll bottom left repeat-x;
+  background: url(/img/backgrounds/wave.png) scroll bottom left repeat-x;
   position: absolute;
   width: 100%;
   height: 182px;
