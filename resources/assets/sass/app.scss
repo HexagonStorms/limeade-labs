@@ -28,11 +28,11 @@ body, p {
 }
 
 .header-style-7 .navbar-nav > li > a:after {
-    background: $brand-secondary;
+    background: $brand-primary;
 }
 
 .header-style-7.fixed-header .navbar-nav > li > a:after {
-    background: $brand-secondary;
+    background: $brand-primary;
 }
 
 .brand-font, h1, h2, h3, h4, h5, h6 {
@@ -41,10 +41,6 @@ body, p {
 
 .brand-secondary {
     color: $brand-secondary !important;
-}
-
-.bg-secondary {
-    background: $brand-secondary !important;
 }
 
 .div-round-small {

@@ -308,7 +308,7 @@
                             <textarea name="comment" placeholder="Describe your project" rows="6" class="textarea-big"></textarea>
                         </div>
                         <div class="col-md-12 mt-4 text-center m-15px-t">
-                            <button type="submit" class="btn btn-theme btn-xl">send message</button>
+                            <button type="submit" class="btn bg-primary btn-xl color-white brand-font">Send</button>
                         </div>
                     </div>
                 </form>
@@ -327,29 +327,29 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-3 col-sm-6 text-center sm-m-25px-b wow fadeInUp">
-                    <i class="far fa-map-pin icon-round-small bg-theme color-white"></i>
+                    <i class="far fa-map-pin icon-round-small bg-primary color-white"></i>
                     <p class="font-alt text-uppercase color-white font-w-600 m-15px-t m-5px-b font-14">Contact Address</p>
                     <p class="color-medium-gray">801 Bryan Rd, <br/>Mission, Texas<br/>78572 </p>
                 </div>
                 <!-- col -->
 
                 <div class="col-12 col-md-3 col-sm-6 text-center sm-m-25px-b wow fadeInUp" data-wow-delay="0.2s">
-                    <i class="far fa-envelope-open icon-round-small bg-theme color-white"></i>
+                    <i class="far fa-envelope-open icon-round-small bg-primary color-white"></i>
                     <p class="font-alt text-uppercase color-white font-w-600 m-15px-t m-5px-b font-14">Talk to us</p>
                     <p class="color-medium-gray">Phone: 210-827-9222</p>
                 </div>
                 <!-- col -->
 
                 <div class="col-12 col-md-3 col-sm-6 text-center sm-m-25px-b wow fadeInUp" data-wow-delay="0.4s">
-                    <i class="far fa-pencil icon-round-small bg-theme color-white"></i>
+                    <i class="far fa-pencil icon-round-small bg-primary color-white"></i>
                     <p class="font-alt text-uppercase color-white font-w-600 m-15px-t m-5px-b font-14">Email Us</p>
                     <p class="color-medium-gray"><a class="color-medium-gray" href="mailto:hello@limeadelabs.com">hello@limeadelabs.com</a><br/></p>
                 </div>
                 <!-- col -->
 
                 <div class="col-12 col-md-3 col-sm-6 text-center sm-m-25px-b wow fadeInUp" data-wow-delay="0.6s">
-                    <div class="div-round-small bg-theme">
-                        <img class="bg-theme" src="/img/icons/texas.png" style="width: 40px !important;" />
+                    <div class="div-round-small bg-primary">
+                        <img class="bg-primary" src="/img/icons/texas.png" style="width: 40px !important;" />
                     </div>
                     <p class="font-alt text-uppercase color-white font-w-600 m-15px-t m-5px-b font-14">Crafted in Texas</p>
                     <p class="color-medium-gray">Made with <i class="far fa-heart"></i> in Mission, Texas.</p>
