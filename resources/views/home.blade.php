@@ -295,8 +295,6 @@
                     <!-- col -->
                 </div>
                 <!-- row -->
-                <p class="text-primary email-msg"></p>
-
                 <form>
                     <div class="row wow fadeInUp">
                         <div class="col-12 col-md-6 mt-4">
@@ -319,6 +317,7 @@
                         </div>
                     </div>
                 </form>
+                <p class="text-primary email-msg"></p>
                 <!-- form -->
             </div>
             <!-- container -->
@@ -439,9 +438,14 @@
                 url: 'send-email',
                 data: data
             }).done(function(response) {
-                console.log(response);
                 $(".email-msg").html(response);
                 $(".email-msg").show();
+
+                $("#formName").val("");
+                $("#formPhone").val("");
+                $("#formEmail").val("");
+                $("#formWebsite").val("");
+                $("#formComment").val("");
             });
 
         });
