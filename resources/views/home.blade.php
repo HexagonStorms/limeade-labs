@@ -79,8 +79,8 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-8 text-center m-60px-b">
-                        <h4 class="color-white brand-font">services</h4>
-                        <p class="w-70 color-medium-gray ml-auto mr-auto display-inline-block sm-w-100 font-xl">We are Limeade Labs, a quality-first studio focused on creating digital experiences. We employ all our knowledge to help our clients build their brands through interactivity.</p>
+                        <h1 class="text-primary brand-font">services</h1>
+                        <p class="w-70 color-medium-gray ml-auto mr-auto display-inline-block sm-w-100 font-xl">We are Limeade Labs, a quality-first studio focused on creating digital experiences. We employ all of our knowledge to help our clients build their brands through interactivity.</p>
                     </div>
                     <!-- col -->
                 </div>
@@ -153,7 +153,7 @@
 
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-8 text-center m-60px-b">
-                        <h4 class="color-white brand-font">portfolio</h4>
+                        <h1 class="text-primary brand-font">latest projects</h1>
                         <p class="w-70 color-medium-gray ml-auto mr-auto display-inline-block sm-w-100 font-xl">We're ready to help your team make a big splash in 2018. Drop us a line to hear what we can do for you.</p>
                     </div>
                     <!-- col -->
@@ -222,15 +222,20 @@
         <section id="workflow" class="section bg-white">
             <div class="container font-m">
 
-                <h4 class="heading-style-6 brand-font">our work flow</h4>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-8 text-center">
+                        <h1 class="text-primary brand-font">our work flow</h1>
+                    </div>
+                    <!-- col -->
+                </div>
                 <!-- row -->
-                <div class="row m-60px-t">
+                <div class="row m-60px-t text-secondary">
                     <div class="col-12 col-sm-6 col-md-4 wow fadeInLeft">
                         <div class="feature-box-03 m-25px-b">
                             <div class="feature-head">
                                 <i class="font-30 font-normal font-w-300 color-extra-dark-gray m-5px-t m-5px-l">01.</i>
                                 <span class="color-medium-gray font-11 text-uppercase letter-spacing-3">Strategic Planning</span>
-                                <div class="font-alt font-w-700 text-uppercase letter-spacing-3 color-extra-dark-gray line-height-20">Establishing the Goal</div>
+                                <div class="font-alt font-w-700 text-uppercase letter-spacing-3 color-extra-dark-gray line-height-20">establish the vision</div>
                             </div>
                             <div class="feature-content m-10px-t">
                                 <p class="line-height-20">We work with you to talk about the best approach we can take for your project. We'll provide you with plenty of options and ask about how you want your digital experience to be represented.</p>
@@ -246,10 +251,10 @@
                             <div class="feature-head">
                                 <i class="font-30 font-normal font-w-300 color-extra-dark-gray m-5px-t m-5px-l">02.</i>
                                 <span class="color-medium-gray font-11 text-uppercase letter-spacing-3">Sprint Culture</span>
-                                <div class="font-alt font-w-700 text-uppercase letter-spacing-3 color-extra-dark-gray line-height-20">Build, Test, Integrate</div>
+                                <div class="font-alt font-w-700 text-uppercase letter-spacing-3 color-extra-dark-gray line-height-20">Write Scalable Code</div>
                             </div>
                             <div class="feature-content m-10px-t">
-                                <p class="line-height-20">We're transparent in sharing our progress with your project. We make the deadlines we establish due to our years of experience in the industry.</p>
+                                <p class="line-height-20">We are transparent in sharing our progress with your project. We make the deadlines we establish due to our years of experience in development. We maintain high coding standards that ensure that we do not waste your time.</p>
                             </div>
                             <!-- feature-content -->
                         </div>
@@ -261,11 +266,11 @@
                         <div class="feature-box-03 m-25px-b">
                             <div class="feature-head">
                                 <i class="font-30 font-normal font-w-300 color-extra-dark-gray m-5px-t m-5px-l">03.</i>
-                                <span class="color-medium-gray font-11 text-uppercase letter-spacing-3">Test, Critique, Improve</span>
-                                <div class="font-alt font-w-700 text-uppercase letter-spacing-3 color-extra-dark-gray line-height-20">We are testaholics</div>
+                                <span class="color-medium-gray font-11 text-uppercase letter-spacing-3">Test, Optimize, Improve</span>
+                                <div class="font-alt font-w-700 text-uppercase letter-spacing-3 color-extra-dark-gray line-height-20">we are testaholics</div>
                             </div>
                             <div class="feature-content m-10px-t">
-                                <p class="line-height-20">Squashing out bugs and ensuring your application is solid is our obsession. We sleep about amazing test-driven development practices and maximum flexibility for scalable code.</p>
+                                <p class="line-height-20">Using Test-driven development practices, we are meticulous in our quality assurance to squash out bugs. Every morning our goal is deliver products so beautiful you could "frame them." Your satisfaction is our obsession. </p>
                             </div>
                             <!-- feature-content -->
                         </div>
@@ -284,8 +289,8 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-8 text-center m-60px-b">
-                        <h4 class="brand-font color-white">let's chat</h4>
-                        <p class="w-70 color-medium-gray ml-auto mr-auto display-inline-block sm-w-100 font-xl">We provide a free consultation to discover competitive advantages for your business. Contact us today to schedule an appointment.</p>
+                        <h1 class="brand-font text-primary">let's chat</h1>
+                        <p class="w-70 color-medium-gray ml-auto mr-auto display-inline-block sm-w-100 font-xl">We are happy to provide free consultations to discover competitive advantages for your business. Contact us today to schedule an appointment.</p>
                     </div>
                     <!-- col -->
                 </div>
@@ -336,7 +341,7 @@
                 <div class="col-12 col-md-3 col-sm-6 text-center sm-m-25px-b wow fadeInUp" data-wow-delay="0.2s">
                     <i class="far fa-envelope-open icon-round-small bg-primary color-white"></i>
                     <p class="font-alt text-uppercase color-white font-w-600 m-15px-t m-5px-b font-14">Talk to us</p>
-                    <p class="color-medium-gray">Phone: 210-827-9222</p>
+                    <p class="color-medium-gray">Phone: <a href="tel:2108279222">210-827-9222</a></p>
                 </div>
                 <!-- col -->
 
@@ -352,7 +357,7 @@
                         <img class="bg-primary" src="/img/icons/texas.png" style="width: 40px !important;" />
                     </div>
                     <p class="font-alt text-uppercase color-white font-w-600 m-15px-t m-5px-b font-14">Crafted in Texas</p>
-                    <p class="color-medium-gray">Made with <i class="far fa-heart"></i> in Mission, Texas.</p>
+                    <p class="color-medium-gray">Made with <i class="far fa-heart text-primary"></i> in Mission, Texas.</p>
                 </div>
                 <!-- col -->
             </div>
