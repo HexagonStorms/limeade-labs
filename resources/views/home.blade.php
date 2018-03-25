@@ -295,7 +295,13 @@
                     <!-- col -->
                 </div>
                 <!-- row -->
-                <form>
+                @if (!empty($success) && $success)
+                    <p class="text-primary">{{ $message }}</p>
+                @elseif (!empty($error) && $error)
+                    <p class="text-danger">{{ $message }}</p>
+                @endif
+                <form method="post" action="/send-email">
+                    @csrf
                     <div class="row wow fadeInUp">
                         <div class="col-12 col-md-6 mt-4">
                             <input name="name" placeholder="Name *" class="input-big" type="text" />
@@ -334,7 +340,7 @@
                 <div class="col-12 col-md-3 col-sm-6 text-center sm-m-25px-b wow fadeInUp">
                     <i class="far fa-map-pin icon-round-small bg-primary color-white"></i>
                     <p class="font-alt text-uppercase color-white font-w-600 m-15px-t m-5px-b font-14">Contact Address</p>
-                    <p class="color-medium-gray">801 Bryan Rd, <br/>Mission, Texas<br/>78572 </p>
+                    <p class="color-medium-gray"><a href="https://www.google.com/maps?q=google+maps+ceed+building&um=1&ie=UTF-8&sa=X&ved=0ahUKEwih1Y2plobaAhWCuFMKHbJ1Db8Q_AUICigB">801 Bryan Rd</a>, <br/>Mission, Texas<br/>78572 </p>
                 </div>
                 <!-- col -->
 
@@ -348,7 +354,7 @@
                 <div class="col-12 col-md-3 col-sm-6 text-center sm-m-25px-b wow fadeInUp" data-wow-delay="0.4s">
                     <i class="far fa-pencil icon-round-small bg-primary color-white"></i>
                     <p class="font-alt text-uppercase color-white font-w-600 m-15px-t m-5px-b font-14">Email Us</p>
-                    <p class="color-medium-gray"><a class="color-medium-gray" href="mailto:hello@limeadelabs.com">hello@limeadelabs.com</a><br/></p>
+                    <p class="color-medium-gray"><a href="mailto:hello@limeadelabs.com">hello@limeadelabs.com</a><br/></p>
                 </div>
                 <!-- col -->
 
