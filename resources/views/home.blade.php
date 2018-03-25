@@ -295,31 +295,27 @@
                     <!-- col -->
                 </div>
                 <!-- row -->
-                @if (!empty($success) && $success)
-                    <p class="text-primary">{{ $message }}</p>
-                @elseif (!empty($error) && $error)
-                    <p class="text-danger">{{ $message }}</p>
-                @endif
-                <form method="post" action="/send-email">
-                    @csrf
+                <p class="text-primary email-msg"></p>
+
+                <form>
                     <div class="row wow fadeInUp">
                         <div class="col-12 col-md-6 mt-4">
-                            <input name="name" placeholder="Name *" class="input-big" type="text" />
+                            <input id="formName" name="name" placeholder="Name *" class="input-big" type="text" />
                         </div>
                         <div class="col-12 col-md-6 mt-4">
-                            <input name="phone" placeholder="Phone" class="input-big" type="text" />
+                            <input name="phone" id="formPhone" placeholder="Phone" class="input-big" type="text" />
                         </div>
                         <div class="col-12 col-md-6 mt-4">
-                            <input name="email" placeholder="Email*" class="input-big" type="email" />
+                            <input name="email" id="formEmail" placeholder="Email*" class="input-big" type="email" />
                         </div>
                         <div class="col-12 col-md-6 mt-4">
-                            <input name="website" placeholder="Website" class="input-big" type="text" />
+                            <input name="website" id="formWebsite" placeholder="Website" class="input-big" type="text" />
                         </div>
                         <div class="col-12 col-md-12 mt-4">
-                            <textarea name="comment" placeholder="Describe your project" rows="6" class="textarea-big"></textarea>
+                            <textarea name="comment" id="formComment" placeholder="Describe your project" rows="6" class="textarea-big"></textarea>
                         </div>
                         <div class="col-md-12 mt-4 text-center m-15px-t">
-                            <button type="submit" class="btn bg-primary btn-xl color-white brand-font">Send</button>
+                            <button type="button" id="send" class="btn bg-primary btn-xl color-white brand-font">Send</button>
                         </div>
                     </div>
                 </form>
@@ -414,6 +410,40 @@
 
         $('.parallax-window').parallax({
             imageSrc: '/img/backgrounds/j-kelly-brito-416265-unsplash.jpg'
+        });
+
+        $.ajaxSetup({
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            }
+        });
+
+        $("#send").on("click", function(response) {
+
+            var formName = $("#formName").val();
+            var formWebsite = $("#formWebsite").val();
+            var formComment = $("#formComment").val();
+            var formPhone = $("#formPhone").val();
+            var formEmail = $("#formEmail").val();
+
+            var data = {
+                name: formName,
+                site: formWebsite,
+                comment: formComment,
+                phone: formPhone,
+                email: formEmail
+            };
+
+            $.ajax({
+                method: 'POST',
+                url: 'send-email',
+                data: data
+            }).done(function(response) {
+                console.log(response);
+                $(".email-msg").html(response);
+                $(".email-msg").show();
+            });
+
         });
     </script>
 </body>
