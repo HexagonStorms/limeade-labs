@@ -238,7 +238,7 @@
                                 <div class="font-alt font-w-700 text-uppercase letter-spacing-3 color-extra-dark-gray line-height-20">establish the vision</div>
                             </div>
                             <div class="feature-content m-10px-t">
-                                <p class="line-height-20">We work with you to talk about the best approach we can take for your project. We'll provide you with plenty of options and ask about how you want your digital experience to be represented.</p>
+                                <p class="line-height-20">We work with you to find the best approach for your project. If you can imagine it, we can build it.</p>
                             </div>
                             <!-- feature-content -->
                         </div>
@@ -254,7 +254,7 @@
                                 <div class="font-alt font-w-700 text-uppercase letter-spacing-3 color-extra-dark-gray line-height-20">Write Scalable Code</div>
                             </div>
                             <div class="feature-content m-10px-t">
-                                <p class="line-height-20">We are transparent in sharing our progress with your project. We make the deadlines we establish due to our years of experience in development. We maintain high coding standards that ensure that we do not waste your time.</p>
+                                <p class="line-height-20">We know your time is valuable. Due to our years of experience, our developers set accurate timelines to build solid projects.</p>
                             </div>
                             <!-- feature-content -->
                         </div>
@@ -267,10 +267,10 @@
                             <div class="feature-head">
                                 <i class="font-30 font-normal font-w-300 color-extra-dark-gray m-5px-t m-5px-l">03.</i>
                                 <span class="color-medium-gray font-11 text-uppercase letter-spacing-3">Test, Optimize, Improve</span>
-                                <div class="font-alt font-w-700 text-uppercase letter-spacing-3 color-extra-dark-gray line-height-20">we are testaholics</div>
+                                <div class="font-alt font-w-700 text-uppercase letter-spacing-3 color-extra-dark-gray line-height-20">Ensure quality</div>
                             </div>
                             <div class="feature-content m-10px-t">
-                                <p class="line-height-20">Using Test-driven development practices, we are meticulous in our quality assurance to squash out bugs. Every morning our goal is deliver products so beautiful you could "frame them." Your satisfaction is our obsession. </p>
+                                <p class="line-height-20">We are meticulous in our quality assurance. Our goal is deliver products so beautiful you could frame them. Your satisfaction is our obsession.</p>
                             </div>
                             <!-- feature-content -->
                         </div>
