@@ -187,7 +187,7 @@
                             <div class="col-12 col-sm-4 col-xs-6 mix photoshop wow fadeInUp" data-wow-delay="0.2s">
                                 <div class="portfolio-col">
                                     <a href="#">
-                                        <img src="/img/portfolio/parlevel-link-3.jpg" title="Parlevel Link" alt="Parlevel Link" />
+                                        <img src="/img/portfolio/parlevel-link-4.jpg" title="Parlevel Link" alt="Parlevel Link" />
                                     </a>
                                     <div class="hover text-center">
                                         <p class="font-alt color-extra-dark-gray text-uppercase m-0 font-w-600">Link by Parlevel</p>
