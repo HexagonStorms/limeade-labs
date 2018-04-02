@@ -4,13 +4,25 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Mail;
+use Log;
+use Exception;
 
 class HomeController extends Controller
 {
+    public function index()
+    {
+
+
+
+
+
+        return view('home');
+    }
+
     public function sendEmail(Request $request)
     {
         try {
-            $website = $request->website;
+            $website = $request->site;
             $msg = $request->comment;
             $phone = $request->phone;
             $wholeMsg = "Website: $website | Phone: $phone | Message: $msg";

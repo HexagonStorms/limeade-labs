@@ -439,7 +439,6 @@
                 data: data
             }).done(function(response) {
                 $(".email-msg").html(response);
-                $(".email-msg").show();
 
                 $("#formName").val("");
                 $("#formPhone").val("");
