@@ -334,21 +334,21 @@
             <div class="row">
                 <div class="col-12 col-md-3 col-sm-6 text-center sm-m-25px-b wow fadeInUp">
                     <i class="far fa-map-pin icon-round-small bg-primary color-white"></i>
-                    <p class="font-alt text-uppercase color-white font-w-600 m-15px-t m-5px-b font-14">Contact Address</p>
+                    <p class="font-alt text-uppercase font-w-600 m-15px-t m-5px-b font-14">Contact Address</p>
                     <p class="color-medium-gray"><a href="https://www.google.com/maps?q=google+maps+ceed+building&um=1&ie=UTF-8&sa=X&ved=0ahUKEwih1Y2plobaAhWCuFMKHbJ1Db8Q_AUICigB">801 Bryan Rd</a>, <br/>Mission, Texas<br/>78572 </p>
                 </div>
                 <!-- col -->
 
                 <div class="col-12 col-md-3 col-sm-6 text-center sm-m-25px-b wow fadeInUp" data-wow-delay="0.2s">
                     <i class="far fa-envelope-open icon-round-small bg-primary color-white"></i>
-                    <p class="font-alt text-uppercase color-white font-w-600 m-15px-t m-5px-b font-14">Talk to us</p>
-                    <p class="color-medium-gray">Phone: <a href="tel:2108279222">210-827-9222</a></p>
+                    <p class="font-alt text-uppercase font-w-600 m-15px-t m-5px-b font-14">Talk to us</p>
+                    <p class="color-medium-gray">Phone: <a href="tel:9563207789">956-320-7789</a></p>
                 </div>
                 <!-- col -->
 
                 <div class="col-12 col-md-3 col-sm-6 text-center sm-m-25px-b wow fadeInUp" data-wow-delay="0.4s">
                     <i class="far fa-pencil icon-round-small bg-primary color-white"></i>
-                    <p class="font-alt text-uppercase color-white font-w-600 m-15px-t m-5px-b font-14">Email Us</p>
+                    <p class="font-alt text-uppercase font-w-600 m-15px-t m-5px-b font-14">Email Us</p>
                     <p class="color-medium-gray"><a href="mailto:hello@limeadelabs.com">hello@limeadelabs.com</a><br/></p>
                 </div>
                 <!-- col -->
@@ -357,7 +357,7 @@
                     <div class="div-round-small bg-primary">
                         <img class="bg-primary" src="/img/icons/texas.png" style="width: 40px !important;" />
                     </div>
-                    <p class="font-alt text-uppercase color-white font-w-600 m-15px-t m-5px-b font-14">Crafted in Texas</p>
+                    <p class="font-alt text-uppercase font-w-600 m-15px-t m-5px-b font-14">Crafted in Texas</p>
                     <p class="color-medium-gray">Made with <i class="far fa-heart text-primary"></i> in Mission, Texas.</p>
                 </div>
                 <!-- col -->
